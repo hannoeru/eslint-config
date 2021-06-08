@@ -16,7 +16,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@hannoeru/eslint-config-ts": "workspace:^0.6.5",
+    "@hannoeru/eslint-config-ts": "^0.6.5",
     "eslint-plugin-vue": "7.10.0"
   },
   "devDependencies": {
