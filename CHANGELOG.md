@@ -1,3 +1,12 @@
+## [0.1.4](https://github.com/hannoeru/eslint-config/compare/v0.1.3...v0.1.4) (2021-06-11)
+
+
+### Features
+
+* change brace-style to 1tbs ([32f97b5](https://github.com/hannoeru/eslint-config/commit/32f97b524e0a5b6d2a2defc305f29ded6c41adf3))
+
+
+
 ## [0.1.3](https://github.com/hannoeru/eslint-config/compare/v0.1.2...v0.1.3) (2021-06-11)
 
 
