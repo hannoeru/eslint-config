@@ -19,7 +19,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@hannoeru/eslint-config-ts": "^0.1.2",
+    "@hannoeru/eslint-config-ts": "workspace:*",
     "eslint-plugin-react": "^7.24.0"
   },
   "devDependencies": {

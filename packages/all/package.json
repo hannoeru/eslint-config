@@ -16,8 +16,8 @@
     "access": "public"
   },
   "dependencies": {
-    "@hannoeru/eslint-config-react": "^0.1.2",
-    "@hannoeru/eslint-config-vue": "^0.1.2"
+    "@hannoeru/eslint-config-react": "workspace:*",
+    "@hannoeru/eslint-config-vue": "workspace:*"
   },
   "devDependencies": {
     "eslint": "^7.28.0"
