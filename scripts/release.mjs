@@ -7,12 +7,12 @@ execSync('npx bumpp package.json packages/*/package.json', { stdio: 'inherit' })
 
 await $`pnpm changelog`
 
-// await $`pnpm -r publish --access public --no-git-checks`
+await $`pnpm -r publish --access public --no-git-checks`
 
 const { version } = await fs.readJSON('package.json')
 
-// await $`git add .`
-// await $`git commit -m "chore: release v${version}"`
-// await $`git tag v${version}`
-// await $`git push`
-// await $`git push origin --tags`
+await $`git add .`
+await $`git commit -m "chore: release v${version}"`
+await $`git tag v${version}`
+await $`git push`
+await $`git push origin --tags`

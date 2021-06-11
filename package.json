@@ -6,9 +6,10 @@
   "private": true,
   "scripts": {
     "preinstall": "npx only-allow pnpm",
-    "lint": "npx eslint --ext .js,.json,.vue --fix .",
-    "release": "zx scripts/release.mjs",
-    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0"
+    "lint": "eslint --ext .js,.json,.vue .",
+    "lint:fix": "eslint --ext .js,.json,.vue --fix .",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
+    "release": "zx scripts/release.mjs"
   },
   "devDependencies": {
     "@hannoeru/eslint-config": "workspace:*",
@@ -16,7 +17,6 @@
     "conventional-changelog-cli": "^2.1.1",
     "eslint": "^7.28.0",
     "fs-extra": "^10.0.0",
-    "lerna": "^4.0.0",
     "zx": "^1.14.1"
   }
 }
