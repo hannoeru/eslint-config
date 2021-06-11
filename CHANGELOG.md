@@ -1,3 +1,13 @@
+## [0.1.3](https://github.com/hannoeru/eslint-config/compare/v0.1.2...v0.1.3) (2021-06-11)
+
+
+### Features
+
+* add changelog & release script ([f2ac31d](https://github.com/hannoeru/eslint-config/commit/f2ac31de950a86595496e42305d4ce51af4bd0ff))
+* enable release script & remove lerna ([644678a](https://github.com/hannoeru/eslint-config/commit/644678a24f8c6cc4abc108dc61dcdce62419ae1f))
+
+
+
 ## [0.1.2](https://github.com/hannoeru/eslint-config/compare/2438c6b929d0a99579d090e61abf95d061a9f091...v0.1.2) (2021-06-09)
 
 
