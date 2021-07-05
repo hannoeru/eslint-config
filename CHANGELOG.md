@@ -1,3 +1,12 @@
+# [0.2.0](https://github.com/hannoeru/eslint-config/compare/v0.1.5...v0.2.0) (2021-07-05)
+
+
+### Features
+
+* make vue helper functions available globally ([2de263d](https://github.com/hannoeru/eslint-config/commit/2de263d5b9d1e73598c97cea94a39375c18d7ddb))
+
+
+
 ## [0.1.5](https://github.com/hannoeru/eslint-config/compare/v0.1.4...v0.1.5) (2021-06-16)
 
 
@@ -28,14 +37,8 @@
 
 * `no-spaced-func` was deprecated in v3.3.0 ([#57](https://github.com/hannoeru/eslint-config/issues/57)) ([c968ecc](https://github.com/hannoeru/eslint-config/commit/c968eccbcda3f94fb8b66ed08051c41bde3acb48))
 * bring back eslint-plugin-html ([3150569](https://github.com/hannoeru/eslint-config/commit/31505698e4738ac77e074d6cddf89fd16b0ed01f))
-* disable import/no-absolute-path ([245001d](https://github.com/hannoeru/eslint-config/commit/245001d08129b3ec4961741d596f70abb2c9be5f))
-* eslint-basic rules do not take effect ([#56](https://github.com/hannoeru/eslint-config/issues/56)) ([412d848](https://github.com/hannoeru/eslint-config/commit/412d8480d951e8361dda69be8a7e8722c255b755))
-* no-console ([ab21039](https://github.com/hannoeru/eslint-config/commit/ab21039962d1e24f026714abd394dbea19199eb2))
-* only disable no-unused-vars on vue file ([6759593](https://github.com/hannoeru/eslint-config/commit/67595932e447824837d9776204c9b559cb06a185))
-* overrides ([8f3f8f5](https://github.com/hannoeru/eslint-config/commit/8f3f8f5a42e1864b42ba7b276b1e8efdb2e80e27))
-* ref ([e53f3ec](https://github.com/hannoeru/eslint-config/commit/e53f3ec8dbc1cc3e32d57c08604b2b1d51661ca4))
-* typescript-eslint conflict with indent rule ([f133652](https://github.com/hannoeru/eslint-config/commit/f13365239058912177e01f902faa5fb2475e6135))
-* workspace pkg version ([7dfa428](https://github.com/hannoeru/eslint-config/commit/7dfa4289707d0dbf54b8fce7f38068a6b2a82d0e))
+* configs ([7e82e51](https://github.com/hannoeru/eslint-config/commit/7e82e51fcaf532686a82b3f2008195ec3cfd84ce))
+* dependencies ([c773e5e](https://github.com/hannoeru/eslint-config/commit/c773e5e043ad37a90785ccfe4834b4fcd2a9dadd))
 * **deps:** update all non-major dependencies ([f82ee6f](https://github.com/hannoeru/eslint-config/commit/f82ee6fce9153f098c8fbbeef17f88261e08176f))
 * **deps:** update all non-major dependencies ([2243bf6](https://github.com/hannoeru/eslint-config/commit/2243bf67fac0f75c1a4e35c604f49ebb2092d960))
 * **deps:** update all non-major dependencies ([ae3acb4](https://github.com/hannoeru/eslint-config/commit/ae3acb40f34fa117bb0afe6f9959daa5c0f9a197))
@@ -75,21 +78,27 @@
 * **deps:** update dependency eslint-plugin-unicorn to v18 ([05334ab](https://github.com/hannoeru/eslint-config/commit/05334ab400e3a4d172251264c45faae1fcafd861))
 * **deps:** update dependency eslint-plugin-unicorn to v19 ([cbd45fd](https://github.com/hannoeru/eslint-config/commit/cbd45fdcf9d06cbcf66bd2c23510ac36b330941b))
 * **deps:** update dependency eslint-plugin-unicorn to v20 ([7a2af88](https://github.com/hannoeru/eslint-config/commit/7a2af88bd9935f58df3ac0b733642ec32fb9f722))
-* **deps:** update dependency eslint-plugin-vue to v7.0.0-beta.0 ([e0b59f2](https://github.com/hannoeru/eslint-config/commit/e0b59f271fa3c679e5c4a7d61b5af79cef37721f))
-* **deps:** update typescript-eslint monorepo to v3 ([ebb1820](https://github.com/hannoeru/eslint-config/commit/ebb18209d5c8417da41be7ca8b2b8658bd4ba1a5))
-* configs ([7e82e51](https://github.com/hannoeru/eslint-config/commit/7e82e51fcaf532686a82b3f2008195ec3cfd84ce))
-* dependencies ([c773e5e](https://github.com/hannoeru/eslint-config/commit/c773e5e043ad37a90785ccfe4834b4fcd2a9dadd))
-* npm access public ([2022fc2](https://github.com/hannoeru/eslint-config/commit/2022fc2a1f93c9b7b1a331b465a6fe9bca174d82))
-* update ([ce7f9ec](https://github.com/hannoeru/eslint-config/commit/ce7f9ec9687fea47757e973344fd2068cc7e5a8f))
 * **deps:** update dependency eslint-plugin-vue to v6 ([#13](https://github.com/hannoeru/eslint-config/issues/13)) ([5d0daca](https://github.com/hannoeru/eslint-config/commit/5d0dacae0af218e30868fcfb7b60afd6dbeda45b))
-* update ts config ([0a2b8cd](https://github.com/hannoeru/eslint-config/commit/0a2b8cdedef251c724c6c2f9394debf96ada2d66))
+* **deps:** update dependency eslint-plugin-vue to v7.0.0-beta.0 ([e0b59f2](https://github.com/hannoeru/eslint-config/commit/e0b59f271fa3c679e5c4a7d61b5af79cef37721f))
 * **deps:** update typescript-eslint monorepo to v2 ([1f4250e](https://github.com/hannoeru/eslint-config/commit/1f4250e75ea44a9e1280b4cfcea63ffd9a32aa80))
+* **deps:** update typescript-eslint monorepo to v3 ([ebb1820](https://github.com/hannoeru/eslint-config/commit/ebb18209d5c8417da41be7ca8b2b8658bd4ba1a5))
+* disable import/no-absolute-path ([245001d](https://github.com/hannoeru/eslint-config/commit/245001d08129b3ec4961741d596f70abb2c9be5f))
+* eslint-basic rules do not take effect ([#56](https://github.com/hannoeru/eslint-config/issues/56)) ([412d848](https://github.com/hannoeru/eslint-config/commit/412d8480d951e8361dda69be8a7e8722c255b755))
 * extends order ([0b40222](https://github.com/hannoeru/eslint-config/commit/0b40222ae9e6b659fa802d91e5a074665345b67a))
+* no-console ([ab21039](https://github.com/hannoeru/eslint-config/commit/ab21039962d1e24f026714abd394dbea19199eb2))
+* npm access public ([2022fc2](https://github.com/hannoeru/eslint-config/commit/2022fc2a1f93c9b7b1a331b465a6fe9bca174d82))
+* only disable no-unused-vars on vue file ([6759593](https://github.com/hannoeru/eslint-config/commit/67595932e447824837d9776204c9b559cb06a185))
+* overrides ([8f3f8f5](https://github.com/hannoeru/eslint-config/commit/8f3f8f5a42e1864b42ba7b276b1e8efdb2e80e27))
+* ref ([e53f3ec](https://github.com/hannoeru/eslint-config/commit/e53f3ec8dbc1cc3e32d57c08604b2b1d51661ca4))
+* typescript-eslint conflict with indent rule ([f133652](https://github.com/hannoeru/eslint-config/commit/f13365239058912177e01f902faa5fb2475e6135))
+* update ([ce7f9ec](https://github.com/hannoeru/eslint-config/commit/ce7f9ec9687fea47757e973344fd2068cc7e5a8f))
+* update ts config ([0a2b8cd](https://github.com/hannoeru/eslint-config/commit/0a2b8cdedef251c724c6c2f9394debf96ada2d66))
 * update ts rules ([5d507f1](https://github.com/hannoeru/eslint-config/commit/5d507f1d93d51d0164224a27dcb5a147d7036ef9))
 * update vue config ([cbf7bca](https://github.com/hannoeru/eslint-config/commit/cbf7bca6d238e37c0793553e9b20ab1e4624bb24))
 * vue ([be4d232](https://github.com/hannoeru/eslint-config/commit/be4d232fb84f3d9508c3ebf4f980e95fc13399f8))
 * vue config ([2438c6b](https://github.com/hannoeru/eslint-config/commit/2438c6b929d0a99579d090e61abf95d061a9f091))
 * vue deps ([03b3d7a](https://github.com/hannoeru/eslint-config/commit/03b3d7a295524dd1f665c938e227d44879dc27d1))
+* workspace pkg version ([7dfa428](https://github.com/hannoeru/eslint-config/commit/7dfa4289707d0dbf54b8fce7f38068a6b2a82d0e))
 
 
 ### Features
