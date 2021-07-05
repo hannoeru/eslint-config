@@ -23,15 +23,15 @@
     "eslint-plugin-eslint-comments": "^3.2.0",
     "eslint-plugin-html": "^6.1.2",
     "eslint-plugin-import": "^2.23.4",
-    "eslint-plugin-jsonc": "^1.2.1",
+    "eslint-plugin-jsonc": "^1.4.0",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^5.1.0",
-    "eslint-plugin-unicorn": "^33.0.1",
+    "eslint-plugin-unicorn": "^34.0.1",
     "eslint-plugin-yml": "^0.9.0",
-    "jsonc-eslint-parser": "^1.0.1",
+    "jsonc-eslint-parser": "^1.1.0",
     "yaml-eslint-parser": "^0.3.2"
   },
   "devDependencies": {
-    "eslint": "^7.28.0"
+    "eslint": "^7.30.0"
   }
 }

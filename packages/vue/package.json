@@ -17,9 +17,9 @@
   },
   "dependencies": {
     "@hannoeru/eslint-config-ts": "workspace:*",
-    "eslint-plugin-vue": "7.11.0"
+    "eslint-plugin-vue": "7.12.1"
   },
   "devDependencies": {
-    "eslint": "^7.28.0"
+    "eslint": "^7.30.0"
   }
 }
