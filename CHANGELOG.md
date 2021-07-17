@@ -1,3 +1,12 @@
+## [0.2.1](https://github.com/hannoeru/eslint-config/compare/v0.2.0...v0.2.1) (2021-07-17)
+
+
+### Bug Fixes
+
+* disable `no-undef` in vue files, handle by typescript ([7ae3bc2](https://github.com/hannoeru/eslint-config/commit/7ae3bc2fb3389af75c5e0ba64d759efd9077af07))
+
+
+
 # [0.2.0](https://github.com/hannoeru/eslint-config/compare/v0.1.5...v0.2.0) (2021-07-05)
 
 
