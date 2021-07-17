@@ -6,13 +6,8 @@ module.exports = {
       parserOptions: {
         parser: '@typescript-eslint/parser',
       },
-      globals: {
-        defineProps: 'readonly',
-        defineEmits: 'readonly',
-        defineExpose: 'readonly',
-        withDefaults: 'readonly',
-      },
       rules: {
+        'no-undef': 'off',
         'no-unused-vars': 'off',
         '@typescript-eslint/no-unused-vars': 'off',
       },
