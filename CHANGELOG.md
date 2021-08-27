@@ -1,3 +1,12 @@
+## [0.2.2](https://github.com/hannoeru/eslint-config/compare/v0.2.1...v0.2.2) (2021-08-27)
+
+
+### Features
+
+* order type import ([97c6abc](https://github.com/hannoeru/eslint-config/commit/97c6abc2e41fd46dfa68a911fd32535a0c011ec9))
+
+
+
 ## [0.2.1](https://github.com/hannoeru/eslint-config/compare/v0.2.0...v0.2.1) (2021-07-17)
 
 
