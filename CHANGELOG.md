@@ -1,3 +1,12 @@
+## [0.2.4](https://github.com/hannoeru/eslint-config/compare/v0.2.3...v0.2.4) (2021-08-27)
+
+
+### Bug Fixes
+
+* remove path groups for wrong order in type import ([ba91a06](https://github.com/hannoeru/eslint-config/commit/ba91a0653dd3dac3c7dd0709780db734da9fa652))
+
+
+
 ## [0.2.3](https://github.com/hannoeru/eslint-config/compare/v0.2.2...v0.2.3) (2021-08-27)
 
 
