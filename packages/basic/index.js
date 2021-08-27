@@ -80,19 +80,6 @@ module.exports = {
           ['parent', 'sibling', 'index'],
           'type',
         ],
-        pathGroups: [
-          {
-            pattern: '~/**',
-            group: 'parent',
-            position: 'before',
-          },
-          {
-            pattern: '@/**',
-            group: 'parent',
-            position: 'before',
-          },
-        ],
-        pathGroupsExcludedImportTypes: ['builtin'],
       },
     ],
     'import/first': 'error',
