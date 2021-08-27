@@ -1,3 +1,12 @@
+## [0.2.3](https://github.com/hannoeru/eslint-config/compare/v0.2.2...v0.2.3) (2021-08-27)
+
+
+### Features
+
+* add no-tabs ([b71ecaa](https://github.com/hannoeru/eslint-config/commit/b71ecaa943415fca9b5a48e982985bef2fd638ff))
+
+
+
 ## [0.2.2](https://github.com/hannoeru/eslint-config/compare/v0.2.1...v0.2.2) (2021-08-27)
 
 
