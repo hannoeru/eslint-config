@@ -71,7 +71,30 @@ module.exports = {
   ],
   rules: {
     // import
-    'import/order': 'error',
+    'import/order': [
+      'error',
+      {
+        groups: [
+          'builtin',
+          'external',
+          ['parent', 'sibling', 'index'],
+          'type',
+        ],
+        pathGroups: [
+          {
+            pattern: '~/**',
+            group: 'parent',
+            position: 'before',
+          },
+          {
+            pattern: '@/**',
+            group: 'parent',
+            position: 'before',
+          },
+        ],
+        pathGroupsExcludedImportTypes: ['builtin'],
+      },
+    ],
     'import/first': 'error',
     'import/no-mutable-exports': 'error',
     'import/no-unresolved': 'off',
