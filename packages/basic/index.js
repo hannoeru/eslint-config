@@ -118,6 +118,7 @@ module.exports = {
     'no-debugger': 'error',
     'no-console': 'error',
     'no-cond-assign': ['error', 'always'],
+    'no-tabs': 'error',
     'func-call-spacing': ['off', 'never'],
     'key-spacing': ['error', { beforeColon: false, afterColon: true }],
     'indent': ['error', 2, { SwitchCase: 1, VariableDeclarator: 1, outerIIFEBody: 1 }],
