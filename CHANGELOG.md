@@ -1,3 +1,12 @@
+## [0.2.5](https://github.com/hannoeru/eslint-config/compare/v0.2.4...v0.2.5) (2021-09-03)
+
+
+### Bug Fixes
+
+* type import order ([42f4a8b](https://github.com/hannoeru/eslint-config/commit/42f4a8b6519261e846b23e355ac35330a51dc712))
+
+
+
 ## [0.2.4](https://github.com/hannoeru/eslint-config/compare/v0.2.3...v0.2.4) (2021-08-27)
 
 
