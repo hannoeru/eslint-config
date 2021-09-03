@@ -1,3 +1,12 @@
+## [0.2.7](https://github.com/hannoeru/eslint-config/compare/v0.2.6...v0.2.7) (2021-09-03)
+
+
+### Features
+
+* disable vue/require-default-prop ([516faeb](https://github.com/hannoeru/eslint-config/commit/516faeb5ec858d0ff7f9108da53fea5dba494582))
+
+
+
 ## [0.2.6](https://github.com/hannoeru/eslint-config/compare/v0.2.5...v0.2.6) (2021-09-03)
 
 
