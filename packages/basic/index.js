@@ -77,9 +77,20 @@ module.exports = {
         groups: [
           'builtin',
           'external',
-          ['parent', 'sibling', 'index'],
+          'internal',
+          'parent',
+          'sibling',
+          'index',
           'type',
         ],
+        pathGroups: [
+          {
+            pattern: '@/**',
+            group: 'internal',
+            position: 'after',
+          },
+        ],
+        pathGroupsExcludedImportTypes: ['types'],
       },
     ],
     'import/first': 'error',
