@@ -68,6 +68,24 @@ module.exports = {
         ],
       },
     },
+    {
+      files: ['*.d.ts'],
+      rules: {
+        'import/no-duplicates': 'off',
+      },
+    },
+    {
+      files: ['*.js'],
+      rules: {
+        '@typescript-eslint/no-var-requires': 'off',
+      },
+    },
+    {
+      files: ['scripts/**/*.*'],
+      rules: {
+        'no-console': 'off',
+      },
+    },
   ],
   rules: {
     // import
@@ -167,7 +185,7 @@ module.exports = {
     'block-scoped-var': 'error',
     'consistent-return': 'off',
     'complexity': ['off', 11],
-    'eqeqeq': ['error', 'allow-null'],
+    'eqeqeq': ['error', 'smart'],
     'no-alert': 'warn',
     'no-case-declarations': 'error',
     'no-multi-spaces': 'error',
