@@ -8,6 +8,9 @@ module.exports = {
   ],
   overrides: basic.overrides,
   rules: {
+    // Disable bug rules
+    'import/named': 'off',
+
     // TS
     'no-useless-constructor': 'off',
     '@typescript-eslint/semi': ['error', 'never'],
