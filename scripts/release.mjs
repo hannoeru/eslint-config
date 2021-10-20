@@ -3,7 +3,7 @@ import { execSync } from 'child_process'
 import fs from 'fs-extra'
 import { $ } from 'zx'
 
-execSync('npx bumpp package.json packages/*/package.json', { stdio: 'inherit' })
+execSync('pnpm exec bumpp package.json packages/*/package.json', { stdio: 'inherit' })
 
 await $`pnpm changelog`
 

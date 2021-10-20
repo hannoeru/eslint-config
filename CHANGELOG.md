@@ -1,3 +1,19 @@
+## [0.2.8](https://github.com/hannoeru/eslint-config/compare/v0.2.7...v0.2.8) (2021-10-20)
+
+
+### Bug Fixes
+
+* disable bug rules ([aca258d](https://github.com/hannoeru/eslint-config/commit/aca258d03820dd7670859d2b09a766f50fe9320a))
+
+
+### Features
+
+* add yaml file parser ([06a2487](https://github.com/hannoeru/eslint-config/commit/06a248761030c2ade843af14b461df49085f1f9a))
+* improve rules for specific files ([887652f](https://github.com/hannoeru/eslint-config/commit/887652f5783047d9672afa09920ebdbe5b796aa1))
+* support eslint v8 ([d74b33a](https://github.com/hannoeru/eslint-config/commit/d74b33aed69e1c3b5c2a6cbeb9134e6107aac964))
+
+
+
 ## [0.2.7](https://github.com/hannoeru/eslint-config/compare/v0.2.6...v0.2.7) (2021-09-03)
 
 

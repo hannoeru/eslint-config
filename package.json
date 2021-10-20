@@ -1,6 +1,6 @@
 {
   "name": "@hannoeru/eslint-config-monorepo",
-  "version": "0.2.7",
+  "version": "0.2.8",
   "license": "MIT",
   "author": "hannoeru <me@hanlee.co>",
   "private": true,
@@ -13,6 +13,7 @@
   },
   "devDependencies": {
     "@hannoeru/eslint-config": "workspace:*",
+    "bumpp": "^7.1.1",
     "child_process": "^1.0.2",
     "conventional-changelog-cli": "^2.1.1",
     "eslint": "^8.0.1",
