@@ -1,3 +1,12 @@
+## [0.3.1](https://github.com/hannoeru/eslint-config/compare/v0.3.0...v0.3.1) (2021-11-20)
+
+
+### Features
+
+* add vue package for js ([32affde](https://github.com/hannoeru/eslint-config/commit/32affde55dc30976bae8958fe311e6de10202a02))
+
+
+
 # [0.3.0](https://github.com/hannoeru/eslint-config/compare/v0.2.8...v0.3.0) (2021-10-20)
 
 

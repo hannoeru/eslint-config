@@ -104,12 +104,12 @@ importers:
   packages/vue-js:
     specifiers:
       '@babel/eslint-parser': ^7.16.0
-      '@hannoeru/eslint-config-ts': workspace:*
+      '@hannoeru/eslint-config-basic': workspace:*
       eslint: ^8.0.1
       eslint-plugin-vue: 7.20.0
     dependencies:
       '@babel/eslint-parser': 7.16.0_eslint@8.0.1
-      '@hannoeru/eslint-config-ts': link:../typescript
+      '@hannoeru/eslint-config-basic': link:../basic
       eslint-plugin-vue: 7.20.0_eslint@8.0.1
     devDependencies:
       eslint: 8.0.1
