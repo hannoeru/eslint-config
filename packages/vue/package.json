@@ -10,7 +10,7 @@
   ],
   "main": "index.js",
   "peerDependencies": {
-    "eslint": ">=8.0.0"
+    "eslint": ">=7.4.0"
   },
   "publishConfig": {
     "access": "public"
