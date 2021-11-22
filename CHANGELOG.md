@@ -1,3 +1,12 @@
+## [0.3.5](https://github.com/hannoeru/eslint-config/compare/v0.3.4...v0.3.5) (2021-11-22)
+
+
+### Reverts
+
+* eslint 8 require ([c3d89e0](https://github.com/hannoeru/eslint-config/commit/c3d89e0c3e20891a03ff4e841779fe3553cc5fa8))
+
+
+
 ## [0.3.4](https://github.com/hannoeru/eslint-config/compare/v0.3.3...v0.3.4) (2021-11-22)
 
 
