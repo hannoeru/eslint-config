@@ -16,6 +16,9 @@ module.exports = {
     'plugin:vue/vue3-recommended',
     '@hannoeru/eslint-config-basic',
   ],
+  parserOptions: {
+    parser: '@babel/eslint-parser',
+  },
   rules: {
     'vue/max-attributes-per-line': ['warn', { singleline: 5 }],
     // 'vue/html-self-closing': 'off',
