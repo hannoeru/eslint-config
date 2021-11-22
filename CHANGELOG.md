@@ -1,3 +1,12 @@
+## [0.3.4](https://github.com/hannoeru/eslint-config/compare/v0.3.3...v0.3.4) (2021-11-22)
+
+
+### Bug Fixes
+
+* add default js parser ([d2f4679](https://github.com/hannoeru/eslint-config/commit/d2f4679ab95025139ad8918d94f3df310637c6db))
+
+
+
 ## [0.3.3](https://github.com/hannoeru/eslint-config/compare/v0.3.2...v0.3.3) (2021-11-22)
 
 
