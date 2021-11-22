@@ -1,3 +1,12 @@
+## [0.3.3](https://github.com/hannoeru/eslint-config/compare/v0.3.2...v0.3.3) (2021-11-22)
+
+
+### Features
+
+* disable vue/multi-word-component-names ([2836cc9](https://github.com/hannoeru/eslint-config/commit/2836cc9311b6fcf013c464e2491003dd0c6edd9b))
+
+
+
 ## [0.3.2](https://github.com/hannoeru/eslint-config/compare/v0.3.1...v0.3.2) (2021-11-22)
 
 
