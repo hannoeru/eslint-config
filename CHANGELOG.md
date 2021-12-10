@@ -1,3 +1,13 @@
+# [0.4.0](https://github.com/hannoeru/eslint-config/compare/v0.3.5...v0.4.0) (2021-12-10)
+
+
+### Features
+
+* add react hooks plugin ([78013e7](https://github.com/hannoeru/eslint-config/commit/78013e7d6e0ae71bb53ea94d669f08d3b6775fb8))
+* import resolver and next config ([93ba190](https://github.com/hannoeru/eslint-config/commit/93ba1903135324be6b5029f3e8f304df22c627e9))
+
+
+
 ## [0.3.5](https://github.com/hannoeru/eslint-config/compare/v0.3.4...v0.3.5) (2021-11-22)
 
 
