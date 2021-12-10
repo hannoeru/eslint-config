@@ -1,3 +1,5 @@
+const allExtensions = ['.js', '.jsx', '.mjs', '.cjs', '.json']
+
 module.exports = {
   env: {
     es6: true,
@@ -14,7 +16,7 @@ module.exports = {
   plugins: ['html', 'unicorn'],
   settings: {
     'import/resolver': {
-      node: { extensions: ['.js', '.mjs', '.ts', '.d.ts'] },
+      node: { extensions: allExtensions },
     },
   },
   overrides: [

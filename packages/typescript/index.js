@@ -1,12 +1,29 @@
 // eslint-disable-next-line @typescript-eslint/no-var-requires
 const basic = require('@hannoeru/eslint-config-basic')
 
+const extensions = ['.ts', '.tsx', ...basic.settings['import/resolver'].node.extensions]
+
 module.exports = {
   extends: [
     '@hannoeru/eslint-config-basic',
     'plugin:@typescript-eslint/recommended',
   ],
   overrides: basic.overrides,
+  settings: {
+    'import/external-module-folders': ['node_modules', 'node_modules/@types'],
+    'import/parsers': {
+      '@typescript-eslint/parser': ['.ts', '.tsx'],
+    },
+    'import/extensions': extensions,
+    'import/resolver': {
+      node: {
+        extensions,
+      },
+      typescript: {
+        alwaysTryTypes: true,
+      },
+    },
+  },
   rules: {
     // Disable bug rules
     'import/named': 'off',
@@ -19,7 +36,6 @@ module.exports = {
 
     'indent': 'off',
     '@typescript-eslint/indent': ['error', 2],
-    'no-unused-vars': 'off',
     '@typescript-eslint/no-unused-vars': 'error',
     'no-redeclare': 'off',
     '@typescript-eslint/no-redeclare': 'error',
