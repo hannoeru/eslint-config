@@ -1,18 +1,25 @@
 module.exports = {
   extends: [
-    'plugin:react/recommended',
-    'plugin:react-hooks/recommended',
     '@hannoeru/eslint-config-ts',
   ],
-  settings: {
-    react: {
-      version: 'detect',
+  overrides: [
+    {
+      files: ['*.jsx', '*.tsx'],
+      extends: [
+        'plugin:react/recommended',
+        'plugin:react-hooks/recommended',
+      ],
+      settings: {
+        react: {
+          version: 'detect',
+        },
+      },
+      rules: {
+        'jsx-quotes': [
+          'error',
+          'prefer-double',
+        ],
+      },
     },
-  },
-  rules: {
-    'jsx-quotes': [
-      'error',
-      'prefer-double',
-    ],
-  },
+  ],
 }
