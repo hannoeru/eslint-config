@@ -1,3 +1,12 @@
+## [0.4.2](https://github.com/hannoeru/eslint-config/compare/v0.4.1...v0.4.2) (2021-12-11)
+
+
+### Features
+
+* rules ([100e3cf](https://github.com/hannoeru/eslint-config/commit/100e3cfedf40e1481eee122fe1bd3098ac8ebe3e))
+
+
+
 ## [0.4.1](https://github.com/hannoeru/eslint-config/compare/v0.4.0...v0.4.1) (2021-12-11)
 
 
