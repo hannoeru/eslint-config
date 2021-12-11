@@ -19,6 +19,7 @@ module.exports = {
           'error',
           'prefer-double',
         ],
+        'react/react-in-jsx-scope': 'off',
       },
     },
   ],
