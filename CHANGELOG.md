@@ -1,3 +1,12 @@
+## [0.4.3](https://github.com/hannoeru/eslint-config/compare/v0.4.2...v0.4.3) (2021-12-12)
+
+
+### Features
+
+* ignore unused vars with `_` prefixed ([66f82b5](https://github.com/hannoeru/eslint-config/commit/66f82b55f7b7389c0539dd3b45082023f11dcebc))
+
+
+
 ## [0.4.2](https://github.com/hannoeru/eslint-config/compare/v0.4.1...v0.4.2) (2021-12-11)
 
 
