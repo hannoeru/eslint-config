@@ -6,7 +6,6 @@ module.exports = {
   plugins: ['jsx-a11y'],
   rules: {
     'import/no-anonymous-default-export': 'warn',
-    'react/prop-types': 'off',
     'jsx-a11y/alt-text': [
       'warn',
       {
