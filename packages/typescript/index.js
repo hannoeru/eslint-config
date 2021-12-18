@@ -29,16 +29,20 @@ module.exports = {
     'import/named': 'off',
 
     // TS
-    'no-useless-constructor': 'off',
     '@typescript-eslint/semi': ['error', 'never'],
     '@typescript-eslint/member-delimiter-style': ['error', { multiline: { delimiter: 'none' } }],
     '@typescript-eslint/type-annotation-spacing': ['error', {}],
+    '@typescript-eslint/consistent-type-imports': ['error', { prefer: 'type-imports', disallowTypeAnnotations: false }],
 
+    // Override JS
+    'no-useless-constructor': 'off',
     'indent': 'off',
     '@typescript-eslint/indent': ['error', 2],
     '@typescript-eslint/no-unused-vars': ['error', { argsIgnorePattern: '^_' }],
     'no-redeclare': 'off',
     '@typescript-eslint/no-redeclare': 'error',
+    'no-use-before-define': 'off',
+    '@typescript-eslint/no-use-before-define': ['error', { functions: false, classes: false, variables: true }],
 
     // off
     '@typescript-eslint/camelcase': 'off',
