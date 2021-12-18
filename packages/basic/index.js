@@ -128,6 +128,10 @@ module.exports = {
     'import/no-unresolved': 'off',
     'import/no-absolute-path': 'off',
 
+    // promise
+    'promise/always-return': 'off',
+    'promise/catch-or-return': 'off',
+
     // Common
     'semi': ['error', 'never'],
     'curly': ['error', 'multi-or-nest', 'consistent'],
