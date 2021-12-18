@@ -9,6 +9,7 @@ module.exports = {
   extends: [
     'standard',
     'plugin:import/recommended',
+    'plugin:promise/recommended',
     'plugin:eslint-comments/recommended',
     'plugin:jsonc/recommended-with-jsonc',
     'plugin:yml/standard',
