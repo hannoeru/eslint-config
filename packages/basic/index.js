@@ -110,11 +110,16 @@ module.exports = {
         pathGroups: [
           {
             pattern: '@/**',
-            group: 'internal',
+            group: 'external',
+            position: 'after',
+          },
+          {
+            pattern: '~/**',
+            group: 'external',
             position: 'after',
           },
         ],
-        pathGroupsExcludedImportTypes: ['types'],
+        pathGroupsExcludedImportTypes: ['type'],
       },
     ],
     'import/first': 'error',
