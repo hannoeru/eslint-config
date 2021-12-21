@@ -1,3 +1,12 @@
+## [0.5.3](https://github.com/hannoeru/eslint-config/compare/v0.5.2...v0.5.3) (2021-12-21)
+
+
+### Features
+
+* force self close element ([782d874](https://github.com/hannoeru/eslint-config/commit/782d8745ec4293c783ca79538f07b41320a9cac9))
+
+
+
 ## [0.5.2](https://github.com/hannoeru/eslint-config/compare/v0.5.1...v0.5.2) (2021-12-18)
 
 
