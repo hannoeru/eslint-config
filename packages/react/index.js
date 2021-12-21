@@ -21,6 +21,10 @@ module.exports = {
         ],
         'react/prop-types': 'off',
         'react/react-in-jsx-scope': 'off',
+        'react/self-closing-comp': ['error', {
+          component: true,
+          html: true,
+        }],
       },
     },
   ],
