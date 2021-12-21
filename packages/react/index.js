@@ -20,6 +20,7 @@ module.exports = {
           'prefer-double',
         ],
         'react/prop-types': 'off',
+        'react/display-name': 'off',
         'react/react-in-jsx-scope': 'off',
         'react/self-closing-comp': ['error', {
           component: true,
