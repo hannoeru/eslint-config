@@ -1,3 +1,13 @@
+## [0.5.4](https://github.com/hannoeru/eslint-config/compare/v0.5.3...v0.5.4) (2021-12-30)
+
+
+### Bug Fixes
+
+* disable react/display-name ([971f4e8](https://github.com/hannoeru/eslint-config/commit/971f4e87e0cbc7019e8b69a413427ebd33ce2280))
+* indent decorator issue ([8936eb7](https://github.com/hannoeru/eslint-config/commit/8936eb7d24bacfae4644b1533ba7d7830757899d))
+
+
+
 ## [0.5.3](https://github.com/hannoeru/eslint-config/compare/v0.5.2...v0.5.3) (2021-12-21)
 
 
