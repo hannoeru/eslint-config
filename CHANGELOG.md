@@ -1,3 +1,7 @@
+## [0.5.5](https://github.com/hannoeru/eslint-config/compare/v0.5.4...v0.5.5) (2022-01-04)
+
+
+
 ## [0.5.4](https://github.com/hannoeru/eslint-config/compare/v0.5.3...v0.5.4) (2021-12-30)
 
 
