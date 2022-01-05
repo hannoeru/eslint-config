@@ -1,3 +1,12 @@
+## [0.5.6](https://github.com/hannoeru/eslint-config/compare/v0.5.5...v0.5.6) (2022-01-05)
+
+
+### Features
+
+* add react rules ([215158c](https://github.com/hannoeru/eslint-config/commit/215158cd0de940e54d953801440164c592a8d836))
+
+
+
 ## [0.5.5](https://github.com/hannoeru/eslint-config/compare/v0.5.4...v0.5.5) (2022-01-04)
 
 
