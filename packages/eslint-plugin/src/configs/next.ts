@@ -1,6 +1,11 @@
-module.exports = {
+import { defineConfig } from '../utils'
+
+export default defineConfig({
   extends: [
-    '@hannoeru/eslint-config-react',
+    'plugin:@hannoeru/typescript',
+    'plugin:@hannoeru/react',
+    'plugin:@hannoeru/json',
+    'plugin:@hannoeru/yml',
     'plugin:@next/next/recommended',
   ],
   plugins: ['jsx-a11y'],
@@ -19,4 +24,4 @@ module.exports = {
     'jsx-a11y/role-has-required-aria-props': 'warn',
     'jsx-a11y/role-supports-aria-props': 'warn',
   },
-}
+})

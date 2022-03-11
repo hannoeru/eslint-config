@@ -1,7 +1,6 @@
-module.exports = {
-  extends: [
-    '@hannoeru/eslint-config-ts',
-  ],
+import { defineConfig } from '../utils'
+
+export default defineConfig({
   overrides: [
     {
       files: ['*.jsx', '*.tsx'],
@@ -35,4 +34,4 @@ module.exports = {
       },
     },
   ],
-}
+})

@@ -1,15 +1,19 @@
 # ESlint Config
 
-My eslint config preset
+My ESLint config preset
 
 ## Packages
 
-- basic: basic rules
-- vue: vue with typescript
-- react: react with typescript
-- next: includes react with next eslint config
-- all: includes vue and react
-- vue-js: vue with javascript
+- eslint-config: default config
+- eslint-plugin:
+  - esnext: basic config
+  - vue: vue support
+  - react: react support
+  - next: default config + next eslint config
+  - json: parse json + package.json sort
+  - yml: parse yml
+  - typescript: typescript support
+  - typescript-type-checking: typescript type checking
 
 ## Development
 
