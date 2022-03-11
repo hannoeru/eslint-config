@@ -1,3 +1,12 @@
+## [0.7.1](https://github.com/hannoeru/eslint-config/compare/v0.7.0...v0.7.1) (2022-03-11)
+
+
+### Bug Fixes
+
+* missing eslint plugin jest ([b6b9405](https://github.com/hannoeru/eslint-config/commit/b6b9405cb9578c182fee1065e096eec7f936dcb9))
+
+
+
 # [0.7.0](https://github.com/hannoeru/eslint-config/compare/v0.6.0...v0.7.0) (2022-03-11)
 
 
