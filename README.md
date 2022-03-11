@@ -4,7 +4,7 @@ My ESLint config preset
 
 ## Packages
 
-- eslint-config: default config
+- eslint-config: default config preset
 - eslint-plugin:
   - esnext: basic config
   - vue: vue support
