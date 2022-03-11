@@ -6,6 +6,11 @@ export default defineConfig({
     'plugin:jest/recommended',
     'plugin:jest-formatting/recommended',
   ],
+  settings: {
+    jest: {
+      version: 26,
+    },
+  },
   rules: {
     'jest/prefer-lowercase-title': ['error', { ignore: ['describe'] }],
     'jest/no-restricted-matchers': [
