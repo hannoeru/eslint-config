@@ -1,3 +1,6 @@
 {
-  "extends": "@hannoeru"
+  "extends": "@hannoeru",
+  "ignorePatterns": [
+    "scripts/release.mjs"
+  ]
 }
