@@ -1,4 +1,5 @@
 import { defineConfig } from '../utils'
+import reactRules from './rules/react'
 
 export default defineConfig({
   overrides: [
@@ -18,19 +19,11 @@ export default defineConfig({
           'error',
           'prefer-double',
         ],
+        // off
         'react/prop-types': 'off',
         'react/react-in-jsx-scope': 'off',
-        'react/jsx-no-bind': ['error', {
-          ignoreRefs: true,
-          allowFunctions: true,
-          allowArrowFunctions: true,
-        }],
-        'react/jsx-tag-spacing': 'error',
-        'react/jsx-key': ['error', { checkFragmentShorthand: true }],
-        'react/self-closing-comp': 'error',
-        'react/prefer-es6-class': 'error',
-        'react/prefer-stateless-function': 'error',
-        'react/no-unknown-property': ['error', { ignore: ['class'] }],
+
+        ...reactRules,
       },
     },
   ],
