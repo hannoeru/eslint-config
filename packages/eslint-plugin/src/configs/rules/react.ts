@@ -66,7 +66,7 @@ export default defineRules({
   // Validate closing bracket location in JSX
   'react/jsx-closing-bracket-location': ['error', { location: 'tag-aligned' }],
   // Validate closing tag location in JSX
-  'react/jsx-closing-tag-location': 'error',
+  'react/jsx-closing-tag-location': 'off',
   // Enforce curly braces or disallow unnecessary curly braces in JSX props and/or children
   'react/jsx-curly-brace-presence': ['error', { propElementValues: 'always' }],
   // Enforce or disallow spaces inside of curly braces in JSX attributes
