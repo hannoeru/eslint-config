@@ -6,6 +6,7 @@ import json from './configs/json'
 import jest from './configs/jest'
 import vue from './configs/vue'
 import yml from './configs/yml'
+import markdown from './configs/markdown'
 import typescript from './configs/typescript'
 import typescriptTypeChecking from './configs/typescript-type-checking'
 import { definePlugin } from './utils'
@@ -28,6 +29,8 @@ const plugin = definePlugin({
     json,
     // test
     jest,
+    // docs
+    markdown,
   },
 })
 

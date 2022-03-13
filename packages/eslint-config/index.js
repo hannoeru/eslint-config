@@ -6,5 +6,6 @@ module.exports = {
     'plugin:@hannoeru/jest',
     'plugin:@hannoeru/json',
     'plugin:@hannoeru/yml',
+    'plugin:@hannoeru/markdown',
   ],
 }
