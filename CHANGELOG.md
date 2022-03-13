@@ -1,3 +1,12 @@
+## [0.7.4](https://github.com/hannoeru/eslint-config/compare/v0.7.3...v0.7.4) (2022-03-13)
+
+
+### Features
+
+* turn off `react/no-unknown-property` ([72a9da4](https://github.com/hannoeru/eslint-config/commit/72a9da4b4e57dc219b3a0d9110c0a980ec17a3ed))
+
+
+
 ## [0.7.3](https://github.com/hannoeru/eslint-config/compare/v0.7.2...v0.7.3) (2022-03-13)
 
 
