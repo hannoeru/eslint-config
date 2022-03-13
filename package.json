@@ -8,8 +8,8 @@
     "preinstall": "npx only-allow pnpm",
     "build": "pnpm -r build",
     "stub": "pnpm -r stub",
-    "lint": "eslint --ext .js,.ts,.json .",
-    "lint:fix": "eslint --ext .js,.ts,.json . --fix",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
     "release": "zx scripts/release.mjs"
   },
@@ -20,6 +20,7 @@
     "conventional-changelog-cli": "^2.2.2",
     "eslint": "^8.10.0",
     "fs-extra": "^10.0.1",
+    "jiti": "^1.13.0",
     "typescript": "^4.6.2",
     "zx": "^5.2.0"
   }
