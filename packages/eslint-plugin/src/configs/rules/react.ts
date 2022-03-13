@@ -54,7 +54,7 @@ export default defineRules({
   // JSX
 
   // Enforce a new line after jsx elements and expressions
-  'react/jsx-newline': 'error',
+  'react/jsx-newline': 'off',
   // Prevent usage of javascript: in URLs
   'react/jsx-no-script-url': 'error',
   // Prevent react contexts from taking non-stable values
