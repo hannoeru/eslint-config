@@ -1,12 +1,31 @@
 import { defineConfig } from '../utils'
 import bestPracticeRules from './rules/best-practice'
 
+const ignorePatterns = [
+  '*.min.*',
+  'CHANGELOG.md',
+  'dist',
+  'LICENSE*',
+  'output',
+  'coverage',
+  'public',
+  'temp',
+  'packages-lock.json',
+  'pnpm-lock.yaml',
+  'yarn.lock',
+  '__snapshots__',
+  '!.github',
+  '!.vitepress',
+  '!.vscode',
+]
+
 export default defineConfig({
   plugins: ['@hannoeru', 'html'],
   extends: [
     'standard',
     'plugin:eslint-comments/recommended',
   ],
+  ignorePatterns,
   rules: {
     // Common
     'semi': ['error', 'never'],
@@ -16,7 +35,7 @@ export default defineConfig({
     'no-unused-vars': ['error', { argsIgnorePattern: '^_' }],
     'no-param-reassign': 'off',
     'array-bracket-spacing': ['error', 'never'],
-    'brace-style': ['error', '1tbs', { allowSingleLine: true }],
+    'brace-style': ['error', 'stroustrup', { allowSingleLine: true }],
     'block-spacing': ['error', 'always'],
     'camelcase': 'off',
     'comma-spacing': ['error', { before: false, after: true }],
