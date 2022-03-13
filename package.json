@@ -1,12 +1,13 @@
 {
   "name": "@hannoeru/eslint-config-monorepo",
   "version": "0.7.1",
+  "private": true,
   "license": "MIT",
   "author": "hannoeru <me@hanlee.co>",
-  "private": true,
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "build": "pnpm -r build",
+    "stub": "pnpm -r stub",
     "lint": "eslint --ext .js,.ts,.json .",
     "lint:fix": "eslint --ext .js,.ts,.json . --fix",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",

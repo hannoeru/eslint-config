@@ -4,16 +4,16 @@
   "description": "",
   "keywords": [],
   "license": "MIT",
+  "author": "hannoeru <me@hanlee.co>",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hannoeru/eslint-config.git",
     "directory": "packages/eslint-config"
   },
-  "author": "hannoeru <me@hanlee.co>",
+  "main": "index.js",
   "files": [
     "index.js"
   ],
-  "main": "index.js",
   "peerDependencies": {
     "eslint": "^8.0.0"
   },
