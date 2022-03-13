@@ -1,3 +1,12 @@
+## [0.7.5](https://github.com/hannoeru/eslint-config/compare/v0.7.4...v0.7.5) (2022-03-13)
+
+
+### Bug Fixes
+
+* manually set react version to ignore warning ([3aa8c92](https://github.com/hannoeru/eslint-config/commit/3aa8c9287d00b629004eb0a3dfae01212581b7d9))
+
+
+
 ## [0.7.4](https://github.com/hannoeru/eslint-config/compare/v0.7.3...v0.7.4) (2022-03-13)
 
 
