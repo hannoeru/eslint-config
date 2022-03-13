@@ -1,3 +1,23 @@
+## [0.7.2](https://github.com/hannoeru/eslint-config/compare/v0.7.1...v0.7.2) (2022-03-13)
+
+
+### Bug Fixes
+
+* push git tag ([f7e6294](https://github.com/hannoeru/eslint-config/commit/f7e6294b8c8f74faea83a4bd86b1fbb33601f8ca))
+
+
+### Features
+
+* add ignorePatterns & use stroustrup brace-style ([1f8ab0d](https://github.com/hannoeru/eslint-config/commit/1f8ab0d9073d9c53974398c7ca06c9b9b48961a6))
+* add markdown lint plugin ([2992218](https://github.com/hannoeru/eslint-config/commit/2992218a1d6916a3fc5cc625a79c580cbc69ff7c))
+* add react rules ([09c3090](https://github.com/hannoeru/eslint-config/commit/09c3090b7f1adddc470f11e441552f5aec8c460e))
+* add yml rules ([9735ab1](https://github.com/hannoeru/eslint-config/commit/9735ab1f448267f4d39a22a88099c6e7e836738f))
+* adjest package.json sort ([2652d16](https://github.com/hannoeru/eslint-config/commit/2652d16e828f66164dd99b60fd66923abd10cf62))
+* allow yml empty-mapping-value ([a119fd7](https://github.com/hannoeru/eslint-config/commit/a119fd7491d359186e7d0154ba1ec0f96e7ec41a))
+* improve typescript rules ([57b9f95](https://github.com/hannoeru/eslint-config/commit/57b9f951771d509bd0d06a5cc34185d2a0286d78))
+
+
+
 ## [0.7.1](https://github.com/hannoeru/eslint-config/compare/v0.7.0...v0.7.1) (2022-03-11)
 
 
