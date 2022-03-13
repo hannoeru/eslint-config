@@ -66,7 +66,7 @@ export default defineRules({
   // Validate closing bracket location in JSX
   'react/jsx-closing-bracket-location': ['error', { location: 'tag-aligned' }],
   // Validate closing tag location in JSX
-  'react/jsx-closing-tag-location': 'off',
+  'react/jsx-closing-tag-location': 'error',
   // Enforce curly braces or disallow unnecessary curly braces in JSX props and/or children
   'react/jsx-curly-brace-presence': ['error', { propElementValues: 'always' }],
   // Enforce or disallow spaces inside of curly braces in JSX attributes
@@ -93,7 +93,7 @@ export default defineRules({
   // Disallow unnecessary fragments
   'react/jsx-no-useless-fragment': ['error', { allowExpressions: true }],
   // Limits every line in JSX to one expression each
-  'react/jsx-one-expression-per-line': ['error', { allow: 'literal' }],
+  'react/jsx-one-expression-per-line': 'off',
   // Enforce PascalCase for user-defined JSX components
   'react/jsx-pascal-case': [
     'error',
