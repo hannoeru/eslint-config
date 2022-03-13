@@ -7,5 +7,6 @@ export default defineConfig({
   rules: {
     'yml/quotes': ['error', { prefer: 'single', avoidEscape: false }],
     'yml/no-empty-document': 'off',
+    'yml/no-empty-mapping-value': 'off',
   },
 })
