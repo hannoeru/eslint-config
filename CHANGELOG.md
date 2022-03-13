@@ -1,3 +1,18 @@
+## [0.7.3](https://github.com/hannoeru/eslint-config/compare/v0.7.2...v0.7.3) (2022-03-13)
+
+
+### Bug Fixes
+
+* improve code format for react ([c513142](https://github.com/hannoeru/eslint-config/commit/c51314268d62ea4408aeaa9086581fec53dbe566))
+* improve react rules ([513d086](https://github.com/hannoeru/eslint-config/commit/513d08664335bb3ae8dafe28f334b02f74eb7ba6))
+
+
+### Features
+
+* turn off `react/jsx-newline` ([5cd3dd1](https://github.com/hannoeru/eslint-config/commit/5cd3dd1697dc67a33b44e1935897d845837f2d0a))
+
+
+
 ## [0.7.2](https://github.com/hannoeru/eslint-config/compare/v0.7.1...v0.7.2) (2022-03-13)
 
 
