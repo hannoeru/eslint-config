@@ -15,6 +15,7 @@ export default defineConfig({
         'no-undef': 'off',
         'no-unused-vars': 'off',
         'no-unused-expressions': 'off',
+        'react/jsx-no-undef': 'off',
         'import/no-unresolved': 'off',
         '@typescript-eslint/no-redeclare': 'off',
         '@typescript-eslint/no-unused-vars': 'off',
