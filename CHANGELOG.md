@@ -1,3 +1,12 @@
+## [0.7.6](https://github.com/hannoeru/eslint-config/compare/v0.7.5...v0.7.6) (2022-03-15)
+
+
+### Features
+
+* turn off `react/jsx-no-undef` in markdown ([465766d](https://github.com/hannoeru/eslint-config/commit/465766dd0effd8e9606aa61d8ce05681e335f53c))
+
+
+
 ## [0.7.5](https://github.com/hannoeru/eslint-config/compare/v0.7.4...v0.7.5) (2022-03-13)
 
 
