@@ -4,11 +4,12 @@ import reactRules from './rules/react'
 export default defineConfig({
   overrides: [
     {
+      files: ['*.js', '*.jsx', '*.ts', '*.tsx'],
+      extends: ['plugin:react-hooks/recommended'],
+    },
+    {
       files: ['*.jsx', '*.tsx'],
-      extends: [
-        'plugin:react/recommended',
-        'plugin:react-hooks/recommended',
-      ],
+      extends: ['plugin:react/recommended'],
       settings: {
         react: {
           version: '17',
