@@ -1,5 +1,6 @@
 import { defineConfig } from '../utils'
 import bestPracticeRules from './rules/best-practice'
+import eslintComments from './rules/eslint-comments'
 
 const ignorePatterns = [
   '*.min.*',
@@ -20,11 +21,8 @@ const ignorePatterns = [
 ]
 
 export default defineConfig({
-  plugins: ['@hannoeru', 'html'],
-  extends: [
-    'standard',
-    'plugin:eslint-comments/recommended',
-  ],
+  plugins: ['@hannoeru', 'html', 'eslint-comments'],
+  extends: ['standard'],
   ignorePatterns,
   rules: {
     // Common
@@ -115,9 +113,7 @@ export default defineConfig({
     ],
     'no-use-before-define': ['error', { functions: false, classes: false, variables: true }],
 
-    // Comments
-    'eslint-comments/disable-enable-pair': 'off',
-
+    ...eslintComments,
     ...bestPracticeRules,
   },
 })
