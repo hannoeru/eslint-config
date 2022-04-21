@@ -1,3 +1,13 @@
+## [0.7.7](https://github.com/hannoeru/eslint-config/compare/v0.7.6...v0.7.7) (2022-04-21)
+
+
+### Features
+
+* enable `eslint-comments/no-unused-disable` ([80cbbfc](https://github.com/hannoeru/eslint-config/commit/80cbbfc357ad228e979b0fdcafe63c902a1a2d06))
+* lint react hooks in ts or js file ([87dda96](https://github.com/hannoeru/eslint-config/commit/87dda962e5ca209bc9319b9458a4e5fcab180f05))
+
+
+
 ## [0.7.6](https://github.com/hannoeru/eslint-config/compare/v0.7.5...v0.7.6) (2022-03-15)
 
 

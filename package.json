@@ -1,6 +1,6 @@
 {
   "name": "@hannoeru/eslint-config-monorepo",
-  "version": "0.7.6",
+  "version": "0.7.7",
   "private": true,
   "license": "MIT",
   "author": "hannoeru <me@hanlee.co>",
