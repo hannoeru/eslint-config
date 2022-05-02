@@ -1,4 +1,3 @@
-// eslint-disable-next-line @typescript-eslint/no-var-requires
 import { defineConfig } from '../utils'
 
 const extensions = ['.ts', '.tsx', '.js', '.cjs', '.mjs', '.jsx']
