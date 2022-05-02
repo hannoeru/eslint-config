@@ -1,3 +1,12 @@
+## [0.7.8](https://github.com/hannoeru/eslint-config/compare/v0.7.7...v0.7.8) (2022-05-02)
+
+
+### Bug Fixes
+
+* eslint error ([9c32a55](https://github.com/hannoeru/eslint-config/commit/9c32a5562bcd87deef2ddd2bf1f879e1de3e57be))
+
+
+
 ## [0.7.7](https://github.com/hannoeru/eslint-config/compare/v0.7.6...v0.7.7) (2022-04-21)
 
 
