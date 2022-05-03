@@ -6,5 +6,4 @@ export default defineRules({
   'eqeqeq': ['error', 'smart'],
   'no-alert': 'warn',
   'vars-on-top': 'error',
-  'require-await': 'error',
 })
