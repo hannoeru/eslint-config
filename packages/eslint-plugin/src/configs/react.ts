@@ -9,7 +9,10 @@ export default defineConfig({
     },
     {
       files: ['*.jsx', '*.tsx'],
-      extends: ['plugin:react/recommended'],
+      extends: [
+        'plugin:react/recommended',
+        'plugin:react/jsx-runtime',
+      ],
       settings: {
         react: {
           version: '17',
@@ -22,7 +25,6 @@ export default defineConfig({
         ],
         // off
         'react/prop-types': 'off',
-        'react/react-in-jsx-scope': 'off',
         'react/no-unknown-property': 'off',
 
         ...reactRules,

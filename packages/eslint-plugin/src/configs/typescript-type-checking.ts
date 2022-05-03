@@ -29,6 +29,7 @@ export default defineConfig({
           'error',
           { onlyInlineLambdas: false },
         ],
+        '@typescript-eslint/promise-function-async': 'error',
       },
     },
   ],

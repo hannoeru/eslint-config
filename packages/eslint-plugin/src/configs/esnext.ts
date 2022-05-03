@@ -1,7 +1,6 @@
 import { defineConfig } from '../utils'
+import { resolverExtensions } from '../constants'
 import unicornRules from './rules/unicorn'
-
-const allExtensions = ['.js', '.jsx', '.mjs', '.cjs', '.json']
 
 export default defineConfig({
   env: {
@@ -22,16 +21,12 @@ export default defineConfig({
   plugins: ['unicorn'],
   settings: {
     'import/resolver': {
-      node: { extensions: allExtensions },
+      node: {
+        extensions: resolverExtensions,
+      },
     },
   },
   overrides: [
-    {
-      files: ['*.d.ts'],
-      rules: {
-        'import/no-duplicates': 'off',
-      },
-    },
     {
       files: ['scripts/**/*'],
       rules: {
@@ -46,6 +41,35 @@ export default defineConfig({
     },
   ],
   rules: {
+    'no-var': 'error',
+    'prefer-const': [
+      'error',
+      {
+        destructuring: 'any',
+        ignoreReadBeforeAssign: true,
+      },
+    ],
+    'prefer-arrow-callback': [
+      'error',
+      {
+        allowNamedFunctions: false,
+        allowUnboundThis: true,
+      },
+    ],
+    'object-shorthand': [
+      'error',
+      'always',
+      {
+        ignoreConstructors: false,
+        avoidQuotes: true,
+      },
+    ],
+    'prefer-rest-params': 'error',
+    'prefer-spread': 'error',
+    'prefer-template': 'error',
+    'arrow-parens': ['error', 'as-needed', { requireForBlockBody: true }],
+    'generator-star-spacing': ['error', { before: true, after: false }],
+
     // import
     'import/order': [
       'error',
