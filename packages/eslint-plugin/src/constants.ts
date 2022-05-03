@@ -14,6 +14,7 @@ export const TSEquivalents = [
   'no-unused-vars',
   'no-unused-expressions',
   'no-useless-constructor',
+  'no-use-before-define',
   'quotes',
   'semi',
   'space-before-function-paren',
