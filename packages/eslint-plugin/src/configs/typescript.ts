@@ -47,6 +47,11 @@ export default defineConfig({
           typedefs: false, // Only the TypeScript rule has this option.
         }],
         '@typescript-eslint/comma-dangle': ['error', 'always-multiline'],
+        '@typescript-eslint/space-before-function-paren': ['error', {
+          anonymous: 'always',
+          named: 'never',
+          asyncArrow: 'always',
+        }],
 
         // TS
         '@typescript-eslint/ban-ts-comment': ['error', { 'ts-ignore': 'allow-with-description' }],

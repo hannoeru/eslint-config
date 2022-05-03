@@ -3,7 +3,6 @@ import type { TSESLint } from '@typescript-eslint/utils'
 
 export const TSEquivalents = [
   'comma-spacing',
-  'dot-notation',
   'brace-style',
   'func-call-spacing',
   'indent',
@@ -12,7 +11,6 @@ export const TSEquivalents = [
   'no-array-constructor',
   'no-dupe-class-members',
   'no-redeclare',
-  'no-throw-literal',
   'no-unused-vars',
   'no-unused-expressions',
   'no-useless-constructor',
