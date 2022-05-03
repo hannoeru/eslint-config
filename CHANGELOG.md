@@ -1,3 +1,17 @@
+## [0.8.4](https://github.com/hannoeru/eslint-config/compare/v0.8.3...v0.8.4) (2022-05-03)
+
+
+### Bug Fixes
+
+* missing TSEquivalents ([b6d51c7](https://github.com/hannoeru/eslint-config/commit/b6d51c77c3e864423de69ad8dd0da4763abb0083))
+
+
+### Features
+
+* remove require-await ([5cc6002](https://github.com/hannoeru/eslint-config/commit/5cc600213126dd226634d6f5466a53d8a86ce8bd))
+
+
+
 ## [0.8.3](https://github.com/hannoeru/eslint-config/compare/v0.8.2...v0.8.3) (2022-05-03)
 
 
