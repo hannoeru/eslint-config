@@ -1,3 +1,13 @@
+# [0.8.0](https://github.com/hannoeru/eslint-config/compare/v0.7.8...v0.8.0) (2022-05-03)
+
+
+### Features
+
+* remove old & duplicate rules ([448da13](https://github.com/hannoeru/eslint-config/commit/448da1370de234560c2f0b44e647fe5375113b38))
+* standred rules of vue js ([8fc2308](https://github.com/hannoeru/eslint-config/commit/8fc2308ab550ed811130704d39ff8d23f70a5394))
+
+
+
 ## [0.7.8](https://github.com/hannoeru/eslint-config/compare/v0.7.7...v0.7.8) (2022-05-02)
 
 
