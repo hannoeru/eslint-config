@@ -1,7 +1,7 @@
 import config from 'eslint-config-standard/.eslintrc.json'
 import type { TSESLint } from '@typescript-eslint/utils'
 
-export const equivalents = [
+export const TSEquivalents = [
   'comma-spacing',
   'dot-notation',
   'brace-style',
@@ -21,6 +21,40 @@ export const equivalents = [
   'space-before-function-paren',
   'space-infix-ops',
   'object-curly-spacing',
+] as const
+
+export const VueEquivalents = [
+  // Extension rules
+  'array-bracket-spacing',
+  'arrow-spacing',
+  'block-spacing',
+  'brace-style',
+  'camelcase',
+  'comma-dangle',
+  'comma-spacing',
+  'comma-style',
+  'dot-location',
+  'dot-notation',
+  'eqeqeq',
+  'func-call-spacing',
+  'key-spacing',
+  'keyword-spacing',
+  'no-constant-condition',
+  'no-empty-pattern',
+  'no-extra-parens',
+  'no-irregular-whitespace',
+  'no-loss-of-precision',
+  'no-sparse-arrays',
+  'object-curly-newline',
+  'object-curly-spacing',
+  'object-property-newline',
+  'object-shorthand',
+  'operator-linebreak',
+  'quote-props',
+  'space-in-parens',
+  'space-infix-ops',
+  'space-unary-ops',
+  'template-curly-spacing',
 ] as const
 
 export const configStandard = config as unknown as TSESLint.Linter.Config

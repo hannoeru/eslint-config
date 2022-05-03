@@ -1,6 +1,6 @@
 
 import { defineConfig, fromEntries, ruleFromStandard } from '../utils'
-import { equivalents, resolverExtensionsWithTS } from '../constants'
+import { TSEquivalents, resolverExtensionsWithTS } from '../constants'
 
 export default defineConfig({
   extends: [
@@ -34,9 +34,9 @@ export default defineConfig({
       extends: ['plugin:@typescript-eslint/recommended'],
       rules: {
         // Rules replaced by @typescript-eslint versions:
-        ...fromEntries(equivalents.map(name => [name, 'off'])),
+        ...fromEntries(TSEquivalents.map(name => [name, 'off'])),
         // @typescript-eslint versions of Standard.js rules:
-        ...fromEntries(equivalents.map(name => [`@typescript-eslint/${name}`, ruleFromStandard(name)])),
+        ...fromEntries(TSEquivalents.map(name => [`@typescript-eslint/${name}`, ruleFromStandard(name)])),
         // Override custom JS rules
         '@typescript-eslint/no-unused-vars': ['error', { argsIgnorePattern: '^_' }],
         '@typescript-eslint/no-use-before-define': ['error', {
