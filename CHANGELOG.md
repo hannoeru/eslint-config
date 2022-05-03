@@ -1,3 +1,12 @@
+## [0.8.2](https://github.com/hannoeru/eslint-config/compare/v0.8.1...v0.8.2) (2022-05-03)
+
+
+### Bug Fixes
+
+* remove rules that require type info ([8f7fecd](https://github.com/hannoeru/eslint-config/commit/8f7fecdfaa4663ce622eb954fee0fb5e1a1a8f55))
+
+
+
 ## [0.8.1](https://github.com/hannoeru/eslint-config/compare/v0.8.0...v0.8.1) (2022-05-03)
 
 
