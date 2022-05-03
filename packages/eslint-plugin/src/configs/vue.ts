@@ -20,7 +20,7 @@ export default defineConfig({
 
         // Override custom JS rules
         'vue/quote-props': ['error', 'consistent-as-needed'],
-        'vue/no-unused-vars': ['error', { argsIgnorePattern: '^_' }],
+        'vue/no-unused-vars': ['error', { ignorePattern: '^_' }],
         'vue/camelcase': 'off',
         'vue/comma-dangle': ['error', 'always-multiline'],
 
