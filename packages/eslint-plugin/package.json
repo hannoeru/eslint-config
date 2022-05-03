@@ -1,6 +1,6 @@
 {
   "name": "@hannoeru/eslint-plugin",
-  "version": "0.8.2",
+  "version": "0.8.3",
   "description": "My eslint plugin",
   "keywords": [],
   "license": "MIT",

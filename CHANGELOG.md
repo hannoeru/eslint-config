@@ -1,3 +1,12 @@
+## [0.8.3](https://github.com/hannoeru/eslint-config/compare/v0.8.2...v0.8.3) (2022-05-03)
+
+
+### Features
+
+* revert function space changes ([b025318](https://github.com/hannoeru/eslint-config/commit/b0253185ccfb10292f4154c0a6bbb3d411c54f06))
+
+
+
 ## [0.8.2](https://github.com/hannoeru/eslint-config/compare/v0.8.1...v0.8.2) (2022-05-03)
 
 
