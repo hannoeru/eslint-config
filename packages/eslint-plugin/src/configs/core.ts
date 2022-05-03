@@ -36,11 +36,7 @@ export default defineConfig({
     'no-cond-assign': ['error', 'always'],
     'no-return-await': 'error',
     'operator-linebreak': ['error', 'before'],
-    'space-before-function-paren': ['error', {
-      anonymous: 'always',
-      named: 'never',
-      asyncArrow: 'always',
-    }],
+    'space-before-function-paren': ['error', 'never'],
     'no-use-before-define': ['error', {
       functions: false,
       classes: false,
