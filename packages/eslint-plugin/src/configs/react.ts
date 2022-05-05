@@ -4,14 +4,11 @@ import reactRules from './rules/react'
 export default defineConfig({
   overrides: [
     {
-      files: ['*.js', '*.jsx', '*.ts', '*.tsx'],
-      extends: ['plugin:react-hooks/recommended'],
-    },
-    {
       files: ['*.jsx', '*.tsx'],
       extends: [
         'plugin:react/recommended',
         'plugin:react/jsx-runtime',
+        'plugin:react-hooks/recommended',
       ],
       settings: {
         react: {
