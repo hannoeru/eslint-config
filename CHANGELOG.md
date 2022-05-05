@@ -1,3 +1,12 @@
+## [0.8.5](https://github.com/hannoeru/eslint-config/compare/v0.8.4...v0.8.5) (2022-05-05)
+
+
+### Bug Fixes
+
+* only enable react hooks in jsx file ([5539529](https://github.com/hannoeru/eslint-config/commit/5539529a14261c54c5cee9fd67cdab652756d1aa))
+
+
+
 ## [0.8.4](https://github.com/hannoeru/eslint-config/compare/v0.8.3...v0.8.4) (2022-05-03)
 
 
