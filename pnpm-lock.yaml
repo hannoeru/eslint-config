@@ -6,7 +6,7 @@ importers:
     specifiers:
       '@hannoeru/eslint-config': workspace:*
       '@hannoeru/eslint-plugin': workspace:*
-      '@types/react': ^18.0.8
+      '@types/react': ^18.0.9
       bumpp: ^7.1.1
       conventional-changelog-cli: ^2.2.2
       eslint: ^8.14.0
@@ -18,7 +18,7 @@ importers:
     devDependencies:
       '@hannoeru/eslint-config': link:packages/eslint-config
       '@hannoeru/eslint-plugin': link:packages/eslint-plugin
-      '@types/react': 18.0.8
+      '@types/react': 18.0.9
       bumpp: 7.1.1
       conventional-changelog-cli: 2.2.2
       eslint: 8.14.0
@@ -532,8 +532,8 @@ packages:
     resolution: {integrity: sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w==}
     dev: true
 
-  /@types/react/18.0.8:
-    resolution: {integrity: sha512-+j2hk9BzCOrrOSJASi5XiOyBbERk9jG5O73Ya4M0env5Ixi6vUNli4qy994AINcEF+1IEHISYFfIT4zwr++LKw==}
+  /@types/react/18.0.9:
+    resolution: {integrity: sha512-9bjbg1hJHUm4De19L1cHiW0Jvx3geel6Qczhjd0qY5VKVE2X5+x77YxAepuCwVh4vrgZJdgEJw48zrhRIeF4Nw==}
     dependencies:
       '@types/prop-types': 15.7.5
       '@types/scheduler': 0.16.2
