@@ -15,6 +15,8 @@ export default defineConfig({
         'vue/setup-compiler-macros': true,
       },
       rules: {
+        'no-undef': 'off',
+
         // vue versions of Standard.js rules:
         ...fromEntries(VueEquivalents.map(name => [`vue/${name}`, ruleFromStandard(name)])),
 
