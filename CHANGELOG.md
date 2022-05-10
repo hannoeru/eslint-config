@@ -1,3 +1,12 @@
+## [0.8.6](https://github.com/hannoeru/eslint-config/compare/v0.8.5...v0.8.6) (2022-05-10)
+
+
+### Bug Fixes
+
+* disable no-undef in ts vue file ([205fcc7](https://github.com/hannoeru/eslint-config/commit/205fcc7c13875e31bb0db6c8a980b29da918ebfc))
+
+
+
 ## [0.8.5](https://github.com/hannoeru/eslint-config/compare/v0.8.4...v0.8.5) (2022-05-05)
 
 
