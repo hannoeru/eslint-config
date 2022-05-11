@@ -1,3 +1,12 @@
+## [0.8.7](https://github.com/hannoeru/eslint-config/compare/v0.8.6...v0.8.7) (2022-05-11)
+
+
+### Bug Fixes
+
+* disable no-unused-vars for defineEmits ([2f337e5](https://github.com/hannoeru/eslint-config/commit/2f337e52753634508627e2f3525f5eb6e91c86a4))
+
+
+
 ## [0.8.6](https://github.com/hannoeru/eslint-config/compare/v0.8.5...v0.8.6) (2022-05-10)
 
 
