@@ -16,6 +16,7 @@ export default defineConfig({
       },
       rules: {
         'no-undef': 'off',
+        'no-unused-vars': 'off',
 
         // vue versions of Standard.js rules:
         ...fromEntries(VueEquivalents.map(name => [`vue/${name}`, ruleFromStandard(name)])),
