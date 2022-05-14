@@ -9,10 +9,17 @@ export default defineConfig({
       files: ['*.json', '*.json5', '*.jsonc'],
       parser: 'jsonc-eslint-parser',
       rules: {
-        // ESLint core rules known to cause problems with JSON.
-        'strict': 'off',
-        'no-unused-expressions': 'off',
-        'no-irregular-whitespace': 'off',
+        'jsonc/array-bracket-newline': ['error', {
+          multiline: true,
+        }],
+        'jsonc/array-bracket-spacing': 'error',
+        'jsonc/comma-style': ['error', 'last'],
+        'jsonc/indent': ['error', 2],
+        'jsonc/key-spacing': ['error', { beforeColon: false, afterColon: true }],
+        'jsonc/no-octal-escape': 'error',
+        'jsonc/object-curly-newline': ['error', { multiline: true, consistent: true }],
+        'jsonc/object-curly-spacing': ['error', 'always'],
+        'jsonc/object-property-newline': ['error', { allowMultiplePropertiesPerLine: true }],
       },
     },
     {
