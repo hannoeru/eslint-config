@@ -1,3 +1,17 @@
+## [0.8.8](https://github.com/hannoeru/eslint-config/compare/v0.8.7...v0.8.8) (2022-05-14)
+
+
+### Bug Fixes
+
+* deprecated rules ([5d4d76f](https://github.com/hannoeru/eslint-config/commit/5d4d76f47ee8321f4b449e9efff988eb1eee0ff3))
+
+
+### Features
+
+* json format rules ([78fb298](https://github.com/hannoeru/eslint-config/commit/78fb298d0dbdd21d823155125a5c8f91e0f75a26))
+
+
+
 ## [0.8.7](https://github.com/hannoeru/eslint-config/compare/v0.8.6...v0.8.7) (2022-05-11)
 
 

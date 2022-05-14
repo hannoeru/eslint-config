@@ -1,6 +1,6 @@
 {
   "name": "@hannoeru/eslint-plugin",
-  "version": "0.8.7",
+  "version": "0.8.8",
   "description": "My eslint plugin",
   "keywords": [],
   "license": "MIT",
@@ -12,7 +12,9 @@
   },
   "main": "dist/index.cjs",
   "module": "dist/index.mjs",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "prepublishOnly": "pnpm run build",
     "stub": "unbuild --stub",

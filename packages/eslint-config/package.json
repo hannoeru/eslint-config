@@ -1,6 +1,6 @@
 {
   "name": "@hannoeru/eslint-config",
-  "version": "0.8.7",
+  "version": "0.8.8",
   "description": "",
   "keywords": [],
   "license": "MIT",
@@ -11,7 +11,9 @@
     "directory": "packages/eslint-config"
   },
   "main": "index.js",
-  "files": ["index.js"],
+  "files": [
+    "index.js"
+  ],
   "peerDependencies": {
     "eslint": "^8.0.0"
   },
