@@ -1,6 +1,6 @@
-import type { VFC } from 'react'
+import type { FC } from 'react'
 
-const Component: VFC = () => {
+const Component: FC = () => {
   const click = () => {}
   return (
     <button onClick={click} onBlur={() => {}} disabled>
