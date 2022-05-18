@@ -11,9 +11,7 @@
     "directory": "packages/eslint-config"
   },
   "main": "index.js",
-  "files": [
-    "index.js"
-  ],
+  "files": ["index.js"],
   "peerDependencies": {
     "eslint": "^8.0.0"
   },
