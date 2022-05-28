@@ -13,6 +13,7 @@ export default defineConfig({
       extends: ['plugin:vue/vue3-recommended'],
       rules: {
         'no-undef': 'off',
+        'no-unused-vars': 'off',
 
         // Override Recommended
         'vue/max-attributes-per-line': ['warn', { singleline: 5 }],
