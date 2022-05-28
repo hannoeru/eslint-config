@@ -1,3 +1,12 @@
+## [0.8.10](https://github.com/hannoeru/eslint-config/compare/v0.8.9...v0.8.10) (2022-05-28)
+
+
+### Bug Fixes
+
+* disable `no-unused-vars` in vue file ([03d0e51](https://github.com/hannoeru/eslint-config/commit/03d0e5148ed2345528f0b36e5f1c6173d6fa4f30))
+
+
+
 ## [0.8.9](https://github.com/hannoeru/eslint-config/compare/v0.8.8...v0.8.9) (2022-05-18)
 
 
