@@ -14,7 +14,7 @@ importers:
       jiti: ^1.13.0
       react: ^18.1.0
       typescript: ^4.7.3
-      zx: ^6.2.3
+      zx: ^6.2.4
     devDependencies:
       '@hannoeru/eslint-config': link:packages/eslint-config
       '@hannoeru/eslint-plugin': link:packages/eslint-plugin
@@ -26,7 +26,7 @@ importers:
       jiti: 1.13.0
       react: 18.1.0
       typescript: 4.7.3
-      zx: 6.2.3
+      zx: 6.2.4
 
   packages/eslint-config:
     specifiers:
@@ -3699,7 +3699,7 @@ packages:
     resolution: {integrity: sha512-Ctl2BrFiM0X3MANYgj3CkygxhRmr9mi6xhejbdO960nF6EDJApTYpn0BQnDKlnNBULKiCN1n3w9EBkHK8ZWg+g==}
 
   /split/0.3.3:
-    resolution: {integrity: sha1-zQ7qXmOiEd//frDwkcQTPi0N0o8=}
+    resolution: {integrity: sha512-wD2AeVmxXRBoX44wAycgjVpMhvbwdI2aZjCkvfNcH1YqHQvJVa1duWc73OyVGJUc05fhFaTZeQ/PYsrmyH0JVA==}
     dependencies:
       through: 2.3.8
     dev: true
@@ -3717,7 +3717,7 @@ packages:
     dev: true
 
   /stream-combiner/0.0.4:
-    resolution: {integrity: sha1-TV5DPBhSYd3mI8o/RMWGvPXErRQ=}
+    resolution: {integrity: sha512-rT00SPnTVyRsaSz5zgSPma/aHSOic5U1prhYdRy5HS2kTZviFpmDgzilbtsJsxiroqACmayynDN/9VzIbX5DOw==}
     dependencies:
       duplexer: 0.1.2
     dev: true
@@ -3835,7 +3835,7 @@ packages:
     resolution: {integrity: sha512-N+8UisAXDGk8PFXP4HAzVR9nbfmVJ3zYLAWiTIoqC5v5isinhr+r5uaO8+7r3BMfuNIufIsA7RdpVgacC2cSpw==}
 
   /through/2.3.8:
-    resolution: {integrity: sha1-DdTJ/6q8NXlgsbckEV1+Doai4fU=}
+    resolution: {integrity: sha512-w89qg7PI8wAdvX60bMDP+bFoD5Dvhm9oLheFp5O4a2QF0cSBGsBX4qZmadPMvVqlLJBBci+WqGGOAPvcDeNSVg==}
     dev: true
 
   /through2/2.0.5:
@@ -4138,8 +4138,8 @@ packages:
       yargs-parser: 20.2.9
     dev: true
 
-  /zx/6.2.3:
-    resolution: {integrity: sha512-KROw4oYCPBXDQn5N1XAaf9UmM5g6UBTjSOGv1JDvU+T0bxcKDlRR4KzLykyjnfRqy4VPX4wRYBO3A7TenDczsA==}
+  /zx/6.2.4:
+    resolution: {integrity: sha512-wBDObcY5tKDOIOuGrg3XwrhCa6V6eeZLQDVbbpgN9pdhiyOJA/So9R9i5vKN7cGGWkcKKHy29i8kJtx02j+kSg==}
     engines: {node: '>= 16.0.0'}
     hasBin: true
     dependencies:
