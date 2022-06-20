@@ -6,25 +6,25 @@ importers:
     specifiers:
       '@hannoeru/eslint-config': workspace:*
       '@hannoeru/eslint-plugin': workspace:*
-      '@types/react': ^18.0.12
+      '@types/react': ^18.0.14
       bumpp: ^7.1.1
       conventional-changelog-cli: ^2.2.2
       eslint: ^8.17.0
       fs-extra: ^10.1.0
       jiti: ^1.13.0
-      react: ^18.1.0
+      react: ^18.2.0
       typescript: ^4.7.3
       zx: ^6.2.4
     devDependencies:
       '@hannoeru/eslint-config': link:packages/eslint-config
       '@hannoeru/eslint-plugin': link:packages/eslint-plugin
-      '@types/react': 18.0.12
+      '@types/react': 18.0.14
       bumpp: 7.1.1
       conventional-changelog-cli: 2.2.2
       eslint: 8.17.0
       fs-extra: 10.1.0
       jiti: 1.13.0
-      react: 18.1.0
+      react: 18.2.0
       typescript: 4.7.3
       zx: 6.2.4
 
@@ -544,8 +544,8 @@ packages:
     resolution: {integrity: sha512-ZREFYlpUmPQJ0esjxoG1fMvB2HNaD3z+mjqdSosZvd3RalncI9NEur73P8ZJz4YQdL64CmV1w0RuqoRUlhQRBw==}
     dev: true
 
-  /@types/react/18.0.12:
-    resolution: {integrity: sha512-duF1OTASSBQtcigUvhuiTB1Ya3OvSy+xORCiEf20H0P0lzx+/KeVsA99U5UjLXSbyo1DRJDlLKqTeM1ngosqtg==}
+  /@types/react/18.0.14:
+    resolution: {integrity: sha512-x4gGuASSiWmo0xjDLpm5mPb52syZHJx02VKbqUKdLmKtAwIh63XClGsiTI1K6DO5q7ox4xAsQrU+Gl3+gGXF9Q==}
     dependencies:
       '@types/prop-types': 15.7.5
       '@types/scheduler': 0.16.2
@@ -3436,8 +3436,8 @@ packages:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
     dev: false
 
-  /react/18.1.0:
-    resolution: {integrity: sha512-4oL8ivCz5ZEPyclFQXaNksK3adutVS8l2xzZU0cqEFrE9Sb7fC0EFK5uEk74wIreL1DERyjvsU915j1pcT2uEQ==}
+  /react/18.2.0:
+    resolution: {integrity: sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==}
     engines: {node: '>=0.10.0'}
     dependencies:
       loose-envify: 1.4.0
