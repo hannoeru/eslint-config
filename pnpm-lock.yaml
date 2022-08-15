@@ -40,7 +40,7 @@ importers:
   packages/eslint-plugin:
     specifiers:
       '@babel/types': ^7.18.10
-      '@next/eslint-plugin-next': ^12.2.3
+      '@next/eslint-plugin-next': ^12.2.5
       '@typescript-eslint/eslint-plugin': ^5.31.0
       '@typescript-eslint/parser': ^5.31.0
       '@typescript-eslint/utils': ^5.31.0
@@ -67,7 +67,7 @@ importers:
       unbuild: ^0.7.6
       yaml-eslint-parser: ^1.1.0
     dependencies:
-      '@next/eslint-plugin-next': 12.2.3
+      '@next/eslint-plugin-next': 12.2.5
       '@typescript-eslint/eslint-plugin': 5.31.0_jnss7dz76sznncvpyatba5hbxa
       '@typescript-eslint/parser': 5.31.0_qugx7qdu5zevzvxaiqyxfiwquq
       eslint-config-standard: 17.0.0_dfwa53o44x4e5xhsfv5mvfhk5a
@@ -408,8 +408,8 @@ packages:
       type-detect: 4.0.8
     dev: true
 
-  /@next/eslint-plugin-next/12.2.3:
-    resolution: {integrity: sha512-B2e8Yg1MpuLsGxhCx4rU8/Tcnr5wFmCx1O2eyLXBPnaCcsFXfGCo067ujagtDLtWASL3GNgzg78U1SB0dbc38A==}
+  /@next/eslint-plugin-next/12.2.5:
+    resolution: {integrity: sha512-VBjVbmqEzGiOTBq4+wpeVXt/KgknnGB6ahvC/AxiIGnN93/RCSyXhFRI4uSfftM2Ba3w7ZO7076bfKasZsA0fw==}
     dependencies:
       glob: 7.1.7
     dev: false
