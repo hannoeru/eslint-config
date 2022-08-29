@@ -18,7 +18,7 @@
     "@hannoeru/eslint-config": "workspace:*",
     "@hannoeru/eslint-plugin": "workspace:*",
     "@types/react": "^18.0.17",
-    "bumpp": "^7.2.0",
+    "bumpp": "^8.2.1",
     "conventional-changelog-cli": "^2.2.2",
     "eslint": "^8.23.0",
     "fs-extra": "^10.1.0",
