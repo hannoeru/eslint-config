@@ -12,9 +12,7 @@
   },
   "main": "dist/index.cjs",
   "module": "dist/index.mjs",
-  "files": [
-    "dist"
-  ],
+  "files": ["dist"],
   "scripts": {
     "prepublishOnly": "pnpm run build",
     "stub": "unbuild --stub",
