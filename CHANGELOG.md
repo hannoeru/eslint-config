@@ -1,3 +1,29 @@
+# [0.9.0](https://github.com/hannoeru/eslint-config/compare/v0.8.10...v0.9.0) (2022-12-12)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @next/eslint-plugin-next to ^12.2.2 ([7859caf](https://github.com/hannoeru/eslint-config/commit/7859cafd1aa12f87aa8619fe6933a7453bec6058))
+* **deps:** update dependency @next/eslint-plugin-next to ^12.2.3 ([de5562b](https://github.com/hannoeru/eslint-config/commit/de5562bd998368e04d05914d357a2e75c043f806))
+* **deps:** update dependency @next/eslint-plugin-next to ^12.2.5 ([31e9787](https://github.com/hannoeru/eslint-config/commit/31e9787286b0a23fcd35a54d1308d8ad03542466))
+* **deps:** update dependency @next/eslint-plugin-next to ^12.3.1 ([#48](https://github.com/hannoeru/eslint-config/issues/48)) ([74416a4](https://github.com/hannoeru/eslint-config/commit/74416a4c59ab907284d2b055ba22ee97442639c9))
+* **deps:** update dependency @next/eslint-plugin-next to ^12.3.3 ([c908641](https://github.com/hannoeru/eslint-config/commit/c9086419eb5881deaba7d287c20aee9fc79fee3e))
+* **deps:** update dependency @next/eslint-plugin-next to ^12.3.4 ([#56](https://github.com/hannoeru/eslint-config/issues/56)) ([6936e13](https://github.com/hannoeru/eslint-config/commit/6936e13e35499b799aa524bcc94895d34b0a7131))
+* **deps:** update dependency @next/eslint-plugin-next to v13 ([#66](https://github.com/hannoeru/eslint-config/issues/66)) ([6befbe8](https://github.com/hannoeru/eslint-config/commit/6befbe8c4ca92fae9ed5de0e342d362017788763))
+* **deps:** update dependency eslint-plugin-yml to v1 ([#6](https://github.com/hannoeru/eslint-config/issues/6)) ([b84c9bd](https://github.com/hannoeru/eslint-config/commit/b84c9bd428c33e71d0ff655203d4ef601eae7186))
+* **deps:** update linters ([1b3e43b](https://github.com/hannoeru/eslint-config/commit/1b3e43bba8c39dfee79cc564a54de328220ba1ea))
+* **deps:** update linters ([33dd5c2](https://github.com/hannoeru/eslint-config/commit/33dd5c202a9232566b52067fc2dbea846b99187d))
+* **deps:** update linters ([3e56067](https://github.com/hannoeru/eslint-config/commit/3e56067edcd6585aabc8649b4ce9fe3774561ea2))
+* **deps:** update linters ([8a0ca33](https://github.com/hannoeru/eslint-config/commit/8a0ca33d36da5e053a67b550c5b7f37760ae495c))
+* **deps:** update linters ([791bc90](https://github.com/hannoeru/eslint-config/commit/791bc90644e6777011d268fc2f5b53951c64abd3))
+* **deps:** update linters ([8537c08](https://github.com/hannoeru/eslint-config/commit/8537c0807f52029f381ccdda798383ebe74b17b6))
+* **deps:** update linters ([#5](https://github.com/hannoeru/eslint-config/issues/5)) ([23bdc29](https://github.com/hannoeru/eslint-config/commit/23bdc292b578230cba28516a90f04097409782fa))
+* **deps:** update linters ([#54](https://github.com/hannoeru/eslint-config/issues/54)) ([425d861](https://github.com/hannoeru/eslint-config/commit/425d861429762299a7d828688c4788dd7c289124))
+* **deps:** update linters ([#60](https://github.com/hannoeru/eslint-config/issues/60)) ([e2049aa](https://github.com/hannoeru/eslint-config/commit/e2049aa576c394ee514b5ba5e6c8f290ea399f4f))
+* **deps:** update linters (major) ([#67](https://github.com/hannoeru/eslint-config/issues/67)) ([d32c7b7](https://github.com/hannoeru/eslint-config/commit/d32c7b7d80dd4c406ec5f1ac3ce7769a4028203f))
+
+
+
 ## [0.8.10](https://github.com/hannoeru/eslint-config/compare/v0.8.9...v0.8.10) (2022-05-28)
 
 
