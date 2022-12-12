@@ -12,7 +12,8 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
-    "release": "zx scripts/release.mjs"
+    "release": "zx scripts/release.mjs",
+    "type-check": "tsc --noEmit"
   },
   "devDependencies": {
     "@hannoeru/eslint-config": "workspace:*",

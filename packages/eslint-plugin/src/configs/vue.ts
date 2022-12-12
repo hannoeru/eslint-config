@@ -7,7 +7,6 @@ export default defineConfig({
       files: ['*.vue'],
       parser: 'vue-eslint-parser',
       parserOptions: {
-        // @ts-expect-error not exits in ts-eslint
         parser: '@typescript-eslint/parser',
       },
       extends: ['plugin:vue/vue3-recommended'],
