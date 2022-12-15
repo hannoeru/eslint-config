@@ -6,10 +6,15 @@ export default defineConfig({
   ],
   overrides: [
     {
+      files: ['**/*.md'],
+      rules: {
+        indent: 'off',
+      },
+    },
+    {
       // Code blocks in markdown file
       files: ['**/*.md/*.*'],
       rules: {
-        'indent': 'off',
         'no-alert': 'off',
         'no-console': 'off',
         'no-restricted-imports': 'off',
