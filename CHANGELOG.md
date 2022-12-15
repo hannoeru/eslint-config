@@ -1,3 +1,12 @@
+## [0.9.1](https://github.com/hannoeru/eslint-config/compare/v0.9.0...v0.9.1) (2022-12-12)
+
+
+### Bug Fixes
+
+* import lint error on markdown file ([4eec313](https://github.com/hannoeru/eslint-config/commit/4eec313d6ee928f7a91bbaf054107d4fb45d9eef))
+
+
+
 # [0.9.0](https://github.com/hannoeru/eslint-config/compare/v0.8.10...v0.9.0) (2022-12-12)
 
 
