@@ -1,3 +1,21 @@
+## [0.9.3](https://github.com/hannoeru/eslint-config/compare/v0.9.2...v0.9.3) (2022-12-15)
+
+
+### Bug Fixes
+
+* indent error in markdown file ([2997fde](https://github.com/hannoeru/eslint-config/commit/2997fdee8fd1a4b6ad47a08af175b7d30c8cc03f))
+
+
+
+## [0.9.2](https://github.com/hannoeru/eslint-config/compare/v0.9.1...v0.9.2) (2022-12-15)
+
+
+### Bug Fixes
+
+* disable indent in markdown file ([cecf6ed](https://github.com/hannoeru/eslint-config/commit/cecf6ed9bbe455fca224d09247278f3d3cbd3d03))
+
+
+
 ## [0.9.1](https://github.com/hannoeru/eslint-config/compare/v0.9.0...v0.9.1) (2022-12-12)
 
 
