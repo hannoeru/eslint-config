@@ -9,9 +9,6 @@ export default defineConfig({
       files: ['*.json', '*.json5', '*.jsonc'],
       parser: 'jsonc-eslint-parser',
       rules: {
-        'jsonc/array-bracket-newline': ['error', {
-          multiline: true,
-        }],
         'jsonc/array-bracket-spacing': 'error',
         'jsonc/comma-style': ['error', 'last'],
         'jsonc/indent': ['error', 2],
