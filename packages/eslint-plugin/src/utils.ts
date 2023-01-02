@@ -5,10 +5,6 @@ export function defineConfig(config: TSESLint.Linter.Config): TSESLint.Linter.Co
   return config
 }
 
-export function defineRules(rules: TSESLint.Linter.Config['rules']): TSESLint.Linter.Config['rules'] {
-  return rules
-}
-
 export function definePlugin(plugin: TSESLint.Linter.Plugin): TSESLint.Linter.Plugin {
   return plugin
 }

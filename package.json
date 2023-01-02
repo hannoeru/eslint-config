@@ -15,7 +15,7 @@
     "release": "pnpm bump && pnpm publish",
     "bump": "pnpm dlx bumpp package.json packages/*/package.json -x 'pnpm changelog' --all",
     "publish": "pnpm -r --filter './packages/*' publish --access public --no-git-checks",
-    "type-check": "tsc --noEmit"
+    "type-check": "pnpm -r type-check"
   },
   "devDependencies": {
     "@hannoeru/eslint-config": "workspace:*",
