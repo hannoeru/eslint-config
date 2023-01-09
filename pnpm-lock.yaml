@@ -10,7 +10,7 @@ importers:
       bumpp: ^8.2.1
       conventional-changelog-cli: ^2.2.2
       eslint: ^8.31.0
-      jiti: ^1.16.0
+      jiti: ^1.16.1
       react: ^18.2.0
       typescript: ^4.9.4
       zx: ^7.1.1
@@ -21,7 +21,7 @@ importers:
       bumpp: 8.2.1
       conventional-changelog-cli: 2.2.2
       eslint: 8.31.0
-      jiti: 1.16.0
+      jiti: 1.16.1
       react: 18.2.0
       typescript: 4.9.4
       zx: 7.1.1
@@ -2772,6 +2772,11 @@ packages:
     hasBin: true
     dev: true
 
+  /jiti/1.16.1:
+    resolution: {integrity: sha512-kJUp4Bj44uTaZAwG6R2/GjbodOWHULn8Swue0B7tY8v5BpTkUvDR+zBM5tsbC4x/jCeYDZ+mAdrUIScwIo4oPw==}
+    hasBin: true
+    dev: true
+
   /js-sdsl/4.1.5:
     resolution: {integrity: sha512-08bOAKweV2NUC1wqTtf3qZlnpOX/R2DU9ikpjOHs0H+ibQv3zpncVQg6um4uYtRtrwIX8M4Nh3ytK4HGlYAq7Q==}
 
@@ -3083,7 +3088,7 @@ packages:
       esbuild: 0.15.18
       fs-extra: 10.1.0
       globby: 13.1.2
-      jiti: 1.16.0
+      jiti: 1.16.1
       mri: 1.2.0
       pathe: 1.0.0
       typescript: 4.9.4
