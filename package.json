@@ -2,7 +2,7 @@
   "name": "@hannoeru/eslint-config-monorepo",
   "version": "0.9.4",
   "private": true,
-  "packageManager": "pnpm@7.32.4",
+  "packageManager": "pnpm@8.5.1",
   "license": "MIT",
   "author": "hannoeru <me@hanlee.co>",
   "scripts": {
