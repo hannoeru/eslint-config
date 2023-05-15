@@ -12,9 +12,9 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
-    "release": "pnpm bump && pnpm publish",
+    "release": "pnpm bump",
     "bump": "pnpm dlx bumpp package.json packages/*/package.json -x 'pnpm changelog' --all",
-    "publish": "pnpm -r --filter @hannoeru/eslint-* publish --access public --no-git-checks",
+    "publish:ci": "pnpm -r --filter @hannoeru/eslint-* publish --access public --no-git-checks",
     "type-check": "pnpm -r type-check"
   },
   "devDependencies": {
