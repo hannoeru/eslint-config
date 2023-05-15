@@ -1,3 +1,26 @@
+## [0.9.5](https://github.com/hannoeru/eslint-config/compare/v0.9.4...v0.9.5) (2023-05-15)
+
+
+### Bug Fixes
+
+* **deps:** update all non-major dependencies ([#96](https://github.com/hannoeru/eslint-config/issues/96)) ([fbb7d1c](https://github.com/hannoeru/eslint-config/commit/fbb7d1ce3eab3c4a9aae1acba5231e64f7aa1847))
+* **deps:** update dependency @next/eslint-plugin-next to ^13.0.7 ([#69](https://github.com/hannoeru/eslint-config/issues/69)) ([5862a0f](https://github.com/hannoeru/eslint-config/commit/5862a0fc6af9383b6d864d6a741b2eec4c803962))
+* **deps:** update dependency @next/eslint-plugin-next to ^13.1.1 ([41e121a](https://github.com/hannoeru/eslint-config/commit/41e121afed0eafc8f061fa8fa9b4df9ebf8e3acb))
+* **deps:** update dependency @next/eslint-plugin-next to ^13.1.6 ([d8a7f6a](https://github.com/hannoeru/eslint-config/commit/d8a7f6a461a2aa5d9eb9a81e6996a183457b16c0))
+* **deps:** update dependency @next/eslint-plugin-next to ^13.2.4 ([8773e3a](https://github.com/hannoeru/eslint-config/commit/8773e3a6e98ef90db1656e15efebc93031f4c2c1))
+* **deps:** update dependency @next/eslint-plugin-next to ^13.4.2 ([ac7ea3c](https://github.com/hannoeru/eslint-config/commit/ac7ea3ce9be17de21e334a99f12175f122b12e20))
+* **deps:** update dependency eslint-plugin-unicorn to v47 ([#101](https://github.com/hannoeru/eslint-config/issues/101)) ([edc7be1](https://github.com/hannoeru/eslint-config/commit/edc7be13c45c5476687cc0274b02403582948eca))
+* **deps:** update linters ([cf76311](https://github.com/hannoeru/eslint-config/commit/cf76311bf2e42d268db12e4bff553fa63b9cb1fd))
+* **deps:** update linters ([e8e7c10](https://github.com/hannoeru/eslint-config/commit/e8e7c101f25448d9f4fa6a0a7e1995b0ec03e9a8))
+* **deps:** update linters ([266d33d](https://github.com/hannoeru/eslint-config/commit/266d33dd214fdaf968a25c5d463670af6994e23c))
+
+
+### Features
+
+* flat config and add type check ([f63249d](https://github.com/hannoeru/eslint-config/commit/f63249d79826b7a8361a8ad31978efd231a92f86))
+
+
+
 ## [0.9.4](https://github.com/hannoeru/eslint-config/compare/v0.9.3...v0.9.4) (2022-12-15)
 
 
