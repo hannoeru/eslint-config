@@ -2,7 +2,7 @@
   "name": "@hannoeru/eslint-config-monorepo",
   "version": "0.9.5",
   "private": true,
-  "packageManager": "pnpm@8.6.5",
+  "packageManager": "pnpm@8.6.7",
   "license": "MIT",
   "author": "hannoeru <me@hanlee.co>",
   "scripts": {
@@ -24,9 +24,9 @@
     "bumpp": "^9.1.1",
     "conventional-changelog-cli": "^3.0.0",
     "eslint": "^8.44.0",
-    "jiti": "^1.18.2",
+    "jiti": "^1.19.1",
     "react": "^18.2.0",
     "typescript": "^5.1.6",
-    "zx": "^7.2.2"
+    "zx": "^7.2.3"
   }
 }
