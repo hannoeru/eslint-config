@@ -29,14 +29,14 @@
   },
   "dependencies": {
     "@next/eslint-plugin-next": "^13.4.10",
-    "@typescript-eslint/eslint-plugin": "^5.60.1",
-    "@typescript-eslint/parser": "^5.60.1",
+    "@typescript-eslint/eslint-plugin": "^5.62.0",
+    "@typescript-eslint/parser": "^5.62.0",
     "eslint-config-standard": "^17.1.0",
     "eslint-import-resolver-typescript": "^3.5.5",
     "eslint-plugin-eslint-comments": "^3.2.0",
     "eslint-plugin-html": "^7.1.0",
     "eslint-plugin-import": "^2.27.5",
-    "eslint-plugin-jest": "^27.2.2",
+    "eslint-plugin-jest": "^27.2.3",
     "eslint-plugin-jest-formatting": "^3.1.0",
     "eslint-plugin-jsonc": "^2.9.0",
     "eslint-plugin-jsx-a11y": "^6.7.1",
@@ -53,8 +53,8 @@
   },
   "devDependencies": {
     "@babel/types": "^7.22.5",
-    "@typescript-eslint/utils": "^5.60.1",
-    "eslint": "^8.44.0",
+    "@typescript-eslint/utils": "^5.62.0",
+    "eslint": "^8.45.0",
     "typescript": "^5.1.6",
     "unbuild": "^1.2.1"
   }
