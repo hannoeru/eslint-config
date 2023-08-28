@@ -24,7 +24,7 @@ export default defineConfig({
   ignorePatterns,
   rules: {
     // Common
-    'curly': ['error', 'multi-or-nest', 'consistent'],
+    'curly': ['error', 'multi-line'],
     'quote-props': ['error', 'consistent-as-needed'],
     'no-unused-vars': ['error', { argsIgnorePattern: '^_' }],
     'no-param-reassign': 'off',
