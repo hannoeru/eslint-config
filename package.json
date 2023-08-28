@@ -22,7 +22,7 @@
     "@hannoeru/eslint-plugin": "workspace:*",
     "@types/react": "^18.2.21",
     "bumpp": "^9.2.0",
-    "conventional-changelog-cli": "^3.0.0",
+    "conventional-changelog-cli": "^4.0.0",
     "eslint": "^8.48.0",
     "jiti": "^1.19.3",
     "react": "^18.2.0",
