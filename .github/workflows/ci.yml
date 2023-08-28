@@ -16,13 +16,13 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v3
 
-      - name: Install pnpm
-        uses: pnpm/action-setup@v2
+      - name: Enable corepack
+        run: corepack enable
 
-      - name: Set node version to 16
+      - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: 16
+          node-version-file: .nvmrc
           cache: pnpm
 
       - name: Install deps
