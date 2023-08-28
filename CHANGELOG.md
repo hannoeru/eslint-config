@@ -1,3 +1,7 @@
+## [0.9.7](https://github.com/hannoeru/eslint-config/compare/v0.9.6...v0.9.7) (2023-08-28)
+
+
+
 ## [0.9.6](https://github.com/hannoeru/eslint-config/compare/v0.9.5...v0.9.6) (2023-08-28)
 
 
