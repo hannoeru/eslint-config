@@ -21,14 +21,14 @@ importers:
         specifier: ^9.2.0
         version: 9.2.0
       conventional-changelog-cli:
-        specifier: ^4.0.0
-        version: 4.0.0
+        specifier: ^4.1.0
+        version: 4.1.0
       eslint:
         specifier: ^8.48.0
         version: 8.48.0
       jiti:
-        specifier: ^1.19.3
-        version: 1.19.3
+        specifier: ^1.20.0
+        version: 1.20.0
       react:
         specifier: ^18.2.0
         version: 18.2.0
@@ -1472,7 +1472,7 @@ packages:
       defu: 6.1.2
       dotenv: 16.3.1
       giget: 1.1.2
-      jiti: 1.19.3
+      jiti: 1.20.0
       mlly: 1.4.1
       ohash: 1.1.3
       pathe: 1.1.1
@@ -1632,13 +1632,13 @@ packages:
     engines: {node: '>=16'}
     dev: true
 
-  /conventional-changelog-cli@4.0.0:
-    resolution: {integrity: sha512-BRI/4/MmQi1KKSpXx+jync+vS81A3LO1dtiZGufUatcTgkxD6w3tlRSaoqGlGX/Oggj9aezcH/Xj3lgBtiEQkA==}
+  /conventional-changelog-cli@4.1.0:
+    resolution: {integrity: sha512-MscvILWZ6nWOoC+p/3Nn3D2cVLkjeQjyZPUr0bQ+vUORE/SPrkClJh8BOoMNpS4yk+zFJ5LlgXACxH6XGQoRXA==}
     engines: {node: '>=16'}
     hasBin: true
     dependencies:
       add-stream: 1.0.0
-      conventional-changelog: 5.0.0
+      conventional-changelog: 5.1.0
       meow: 12.1.1
       tempfile: 5.0.0
     dev: true
@@ -1648,15 +1648,15 @@ packages:
     engines: {node: '>=16'}
     dev: true
 
-  /conventional-changelog-conventionalcommits@7.0.1:
-    resolution: {integrity: sha512-VfFJxBmi+LYXeb4pIfZGbuaFCpWZh0qXbUAKP/s6B8tigV6R4D8j5PDlTtMMWawa7+DcNySVoF7kPWz0EMYuCQ==}
+  /conventional-changelog-conventionalcommits@7.0.2:
+    resolution: {integrity: sha512-NKXYmMR/Hr1DevQegFB4MwfM5Vv0m4UIxKZTTYuD98lpTknaZlSRrDOG4X7wIXpGkfsYxZTghUN+Qq+T0YQI7w==}
     engines: {node: '>=16'}
     dependencies:
       compare-func: 2.0.0
     dev: true
 
-  /conventional-changelog-core@6.0.0:
-    resolution: {integrity: sha512-7WPwzTp3eRMot/2mbTAHF8m/0Ue4F/R/sMpSjmhBYi/+xnW2SqnXL/FMuYqEpNC2v3rjzRZ4p+9tYcKfHn02Cg==}
+  /conventional-changelog-core@7.0.0:
+    resolution: {integrity: sha512-UYgaB1F/COt7VFjlYKVE/9tTzfU3VUq47r6iWf6lM5T7TlOxr0thI63ojQueRLIpVbrtHK4Ffw+yQGduw2Bhdg==}
     engines: {node: '>=16'}
     dependencies:
       '@hutson/parse-repository-url': 5.0.0
@@ -1664,8 +1664,7 @@ packages:
       conventional-changelog-writer: 7.0.0
       conventional-commits-parser: 5.0.0
       git-raw-commits: 4.0.0
-      git-remote-origin-url: 2.0.0
-      git-semver-tags: 6.0.0
+      git-semver-tags: 7.0.1
       hosted-git-info: 7.0.0
       normalize-package-data: 6.0.0
       read-pkg: 8.1.0
@@ -1699,8 +1698,8 @@ packages:
       compare-func: 2.0.0
     dev: true
 
-  /conventional-changelog-preset-loader@4.0.0:
-    resolution: {integrity: sha512-xYGvKMkJs8o6vnKDbo2v5VcalZmH54lVU+OCvFQvxj3AQKRMJhbKwvBVsSXfQSuhaG9r6mdK8TIMOaiwiStasg==}
+  /conventional-changelog-preset-loader@4.1.0:
+    resolution: {integrity: sha512-HozQjJicZTuRhCRTq4rZbefaiCzRM2pr6u2NL3XhrmQm4RMnDXfESU6JKu/pnKwx5xtdkYfNCsbhN5exhiKGJA==}
     engines: {node: '>=16'}
     dev: true
 
@@ -1717,21 +1716,21 @@ packages:
       split2: 4.2.0
     dev: true
 
-  /conventional-changelog@5.0.0:
-    resolution: {integrity: sha512-k0c3lCtY3+k75gyrIoO7WEyBd4HLxu8QmTTPxM4D+vKk9wN06GZ/iaVJXQsGZae3Cezb02Is5PJ70fia3zZG8Q==}
+  /conventional-changelog@5.1.0:
+    resolution: {integrity: sha512-aWyE/P39wGYRPllcCEZDxTVEmhyLzTc9XA6z6rVfkuCD2UBnhV/sgSOKbQrEG5z9mEZJjnopjgQooTKxEg8mAg==}
     engines: {node: '>=16'}
     dependencies:
       conventional-changelog-angular: 7.0.0
       conventional-changelog-atom: 4.0.0
       conventional-changelog-codemirror: 4.0.0
-      conventional-changelog-conventionalcommits: 7.0.1
-      conventional-changelog-core: 6.0.0
+      conventional-changelog-conventionalcommits: 7.0.2
+      conventional-changelog-core: 7.0.0
       conventional-changelog-ember: 4.0.0
       conventional-changelog-eslint: 5.0.0
       conventional-changelog-express: 4.0.0
       conventional-changelog-jquery: 5.0.0
       conventional-changelog-jshint: 4.0.0
-      conventional-changelog-preset-loader: 4.0.0
+      conventional-changelog-preset-loader: 4.1.0
     dev: true
 
   /conventional-commits-filter@4.0.0:
@@ -2738,27 +2737,13 @@ packages:
       split2: 4.2.0
     dev: true
 
-  /git-remote-origin-url@2.0.0:
-    resolution: {integrity: sha512-eU+GGrZgccNJcsDH5LkXR3PB9M958hxc7sbA8DFJjrv9j4L2P/eZfKhM+QD6wyzpiv+b1BpK0XrYCxkovtjSLw==}
-    engines: {node: '>=4'}
-    dependencies:
-      gitconfiglocal: 1.0.0
-      pify: 2.3.0
-    dev: true
-
-  /git-semver-tags@6.0.0:
-    resolution: {integrity: sha512-v5BL6psuUy+Ftuo99141XlOIDoJtKw5+YyDANS7fknSP0iT4cVIanc3toDsH4K+VpIWc19l2/xkwQmXMfloeUA==}
+  /git-semver-tags@7.0.1:
+    resolution: {integrity: sha512-NY0ZHjJzyyNXHTDZmj+GG7PyuAKtMsyWSwh07CR2hOZFa+/yoTsXci/nF2obzL8UDhakFNkD9gNdt/Ed+cxh2Q==}
     engines: {node: '>=16'}
     hasBin: true
     dependencies:
       meow: 12.1.1
       semver: 7.5.4
-    dev: true
-
-  /gitconfiglocal@1.0.0:
-    resolution: {integrity: sha512-spLUXeTAVHxDtKsJc8FkFVgFtMdEN9qPGpL23VfSHx4fP4+Ds097IXLvymbnDH8FnmxX5Nr9bPw3A+AQ6mWEaQ==}
-    dependencies:
-      ini: 1.3.8
     dev: true
 
   /glob-parent@5.1.2:
@@ -2974,10 +2959,6 @@ packages:
 
   /inherits@2.0.4:
     resolution: {integrity: sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==}
-
-  /ini@1.3.8:
-    resolution: {integrity: sha512-JV/yugV2uzW5iMRSiZAyDtQd+nxtUnjeLt0acNdw98kKLrvuRVyB80tsREOE7yvGVgalhZ6RNXCmEHkUKBKxew==}
-    dev: true
 
   /internal-slot@1.0.5:
     resolution: {integrity: sha512-Y+R5hJrzs52QCG2laLn4udYVnxsfny9CpOhNhUvk/SSSVyF6T27FzRbF0sroPidSu3X8oEAkOn2K804mjpt6UQ==}
@@ -3210,8 +3191,8 @@ packages:
       reflect.getprototypeof: 1.0.4
     dev: false
 
-  /jiti@1.19.3:
-    resolution: {integrity: sha512-5eEbBDQT/jF1xg6l36P+mWGGoH9Spuy0PCdSr2dtWRDGC6ph/w9ZCL4lmESW8f8F7MwT3XKescfP0wnZWAKL9w==}
+  /jiti@1.20.0:
+    resolution: {integrity: sha512-3TV69ZbrvV6U5DfQimop50jE9Dl6J8O1ja1dvBbMba/sZ3YBEQqJ2VZRoQPVnhlzjNtU1vaXRZVrVjU4qtm8yA==}
     hasBin: true
     dev: true
 
@@ -3521,7 +3502,7 @@ packages:
       esbuild: 0.18.20
       fs-extra: 11.1.1
       globby: 13.2.2
-      jiti: 1.19.3
+      jiti: 1.20.0
       mlly: 1.4.1
       mri: 1.2.0
       pathe: 1.1.1
@@ -3823,11 +3804,6 @@ packages:
   /picomatch@2.3.1:
     resolution: {integrity: sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==}
     engines: {node: '>=8.6'}
-
-  /pify@2.3.0:
-    resolution: {integrity: sha512-udgsAY+fTnvv7kI7aaxbqwWNb0AHiB0qBO89PZKPkoTmGOgdbrHDKD+0B2X4uTfJ/FT1R09r9gTsjUjNJotuog==}
-    engines: {node: '>=0.10.0'}
-    dev: true
 
   /pkg-types@1.0.3:
     resolution: {integrity: sha512-nN7pYi0AQqJnoLPC9eHFQ8AcyaixBUOwvqc5TDnIKCMEE6I0y8P7OKA7fPexsXGCGxQDl/cmrLAp26LhcwxZ4A==}
@@ -4448,7 +4424,7 @@ packages:
       esbuild: 0.19.2
       globby: 13.2.2
       hookable: 5.5.3
-      jiti: 1.19.3
+      jiti: 1.20.0
       magic-string: 0.30.3
       mkdist: 1.3.0(typescript@5.2.2)
       mlly: 1.4.1
@@ -4484,7 +4460,7 @@ packages:
       '@babel/standalone': 7.22.14
       '@babel/types': 7.22.17
       defu: 6.1.2
-      jiti: 1.19.3
+      jiti: 1.20.0
       mri: 1.2.0
       scule: 1.0.0
     transitivePeerDependencies:
