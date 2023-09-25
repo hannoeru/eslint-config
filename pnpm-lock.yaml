@@ -52,7 +52,7 @@ importers:
   packages/eslint-plugin:
     dependencies:
       '@next/eslint-plugin-next':
-        specifier: ^13.4.19
+        specifier: ^13.5.2
         version: 13.5.2
       '@typescript-eslint/eslint-plugin':
         specifier: ^6.7.2
