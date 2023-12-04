@@ -24,7 +24,7 @@ importers:
         specifier: ^4.1.0
         version: 4.1.0
       eslint:
-        specifier: ^8.54.0
+        specifier: ^8.55.0
         version: 8.55.0
       jiti:
         specifier: ^1.21.0
@@ -46,7 +46,7 @@ importers:
         version: link:../eslint-plugin
     devDependencies:
       eslint:
-        specifier: ^8.54.0
+        specifier: ^8.55.0
         version: 8.55.0
 
   packages/eslint-plugin:
@@ -55,10 +55,10 @@ importers:
         specifier: ^14.0.3
         version: 14.0.3
       '@typescript-eslint/eslint-plugin':
-        specifier: ^6.12.0
+        specifier: ^6.13.1
         version: 6.13.1(@typescript-eslint/parser@6.13.1)(eslint@8.55.0)(typescript@5.2.2)
       '@typescript-eslint/parser':
-        specifier: ^6.12.0
+        specifier: ^6.13.1
         version: 6.13.1(eslint@8.55.0)(typescript@5.2.2)
       eslint-config-standard:
         specifier: ^17.1.0
@@ -106,8 +106,8 @@ importers:
         specifier: ^49.0.0
         version: 49.0.0(eslint@8.55.0)
       eslint-plugin-vue:
-        specifier: 9.18.1
-        version: 9.18.1(eslint@8.55.0)
+        specifier: 9.19.2
+        version: 9.19.2(eslint@8.55.0)
       eslint-plugin-yml:
         specifier: ^1.10.0
         version: 1.10.0(eslint@8.55.0)
@@ -122,10 +122,10 @@ importers:
         specifier: ^7.23.5
         version: 7.23.5
       '@typescript-eslint/utils':
-        specifier: ^6.12.0
+        specifier: ^6.13.1
         version: 6.13.1(eslint@8.55.0)(typescript@5.2.2)
       eslint:
-        specifier: ^8.54.0
+        specifier: ^8.55.0
         version: 8.55.0
       typescript:
         specifier: ^5.2.2
@@ -2414,8 +2414,8 @@ packages:
       strip-indent: 3.0.0
     dev: false
 
-  /eslint-plugin-vue@9.18.1(eslint@8.55.0):
-    resolution: {integrity: sha512-7hZFlrEgg9NIzuVik2I9xSnJA5RsmOfueYgsUGUokEDLJ1LHtxO0Pl4duje1BriZ/jDWb+44tcIlC3yi0tdlZg==}
+  /eslint-plugin-vue@9.19.2(eslint@8.55.0):
+    resolution: {integrity: sha512-CPDqTOG2K4Ni2o4J5wixkLVNwgctKXFu6oBpVJlpNq7f38lh9I80pRTouZSJ2MAebPJlINU/KTFSXyQfBUlymA==}
     engines: {node: ^14.17.0 || >=16.0.0}
     peerDependencies:
       eslint: ^6.2.0 || ^7.0.0 || ^8.0.0
