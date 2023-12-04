@@ -24,6 +24,6 @@
     "@hannoeru/eslint-plugin": "workspace:*"
   },
   "devDependencies": {
-    "eslint": "^8.54.0"
+    "eslint": "^8.55.0"
   }
 }

@@ -29,8 +29,8 @@
   },
   "dependencies": {
     "@next/eslint-plugin-next": "^14.0.3",
-    "@typescript-eslint/eslint-plugin": "^6.12.0",
-    "@typescript-eslint/parser": "^6.12.0",
+    "@typescript-eslint/eslint-plugin": "^6.13.1",
+    "@typescript-eslint/parser": "^6.13.1",
     "eslint-config-standard": "^17.1.0",
     "eslint-import-resolver-typescript": "^3.6.1",
     "eslint-plugin-eslint-comments": "^3.2.0",
@@ -46,15 +46,15 @@
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-unicorn": "^49.0.0",
-    "eslint-plugin-vue": "9.18.1",
+    "eslint-plugin-vue": "9.19.2",
     "eslint-plugin-yml": "^1.10.0",
     "jsonc-eslint-parser": "^2.4.0",
     "yaml-eslint-parser": "^1.2.2"
   },
   "devDependencies": {
     "@babel/types": "^7.23.5",
-    "@typescript-eslint/utils": "^6.12.0",
-    "eslint": "^8.54.0",
+    "@typescript-eslint/utils": "^6.13.1",
+    "eslint": "^8.55.0",
     "typescript": "^5.2.2",
     "unbuild": "^2.0.0"
   }
