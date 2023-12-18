@@ -52,7 +52,7 @@
     "yaml-eslint-parser": "^1.2.2"
   },
   "devDependencies": {
-    "@babel/types": "^7.23.5",
+    "@babel/types": "^7.23.6",
     "@typescript-eslint/utils": "^6.13.2",
     "eslint": "^8.55.0",
     "typescript": "^5.2.2",
