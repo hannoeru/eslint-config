@@ -38,7 +38,7 @@
     "eslint-plugin-import": "^2.29.1",
     "eslint-plugin-jest": "^27.6.3",
     "eslint-plugin-jest-formatting": "^3.1.0",
-    "eslint-plugin-jsonc": "^2.12.0",
+    "eslint-plugin-jsonc": "^2.12.2",
     "eslint-plugin-jsx-a11y": "^6.8.0",
     "eslint-plugin-markdown": "^3.0.1",
     "eslint-plugin-n": "^16.6.2",
@@ -47,7 +47,7 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-unicorn": "^50.0.1",
     "eslint-plugin-vue": "9.20.1",
-    "eslint-plugin-yml": "^1.12.0",
+    "eslint-plugin-yml": "^1.12.2",
     "jsonc-eslint-parser": "^2.4.0",
     "yaml-eslint-parser": "^1.2.2"
   },
