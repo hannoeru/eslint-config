@@ -55,10 +55,10 @@ importers:
         specifier: ^14.1.0
         version: 14.1.0
       '@typescript-eslint/eslint-plugin':
-        specifier: ^6.19.0
+        specifier: ^6.20.0
         version: 6.20.0(@typescript-eslint/parser@6.20.0)(eslint@8.56.0)(typescript@5.3.3)
       '@typescript-eslint/parser':
-        specifier: ^6.19.0
+        specifier: ^6.20.0
         version: 6.20.0(eslint@8.56.0)(typescript@5.3.3)
       eslint-config-standard:
         specifier: ^17.1.0
@@ -82,7 +82,7 @@ importers:
         specifier: ^3.1.0
         version: 3.1.0(eslint@8.56.0)
       eslint-plugin-jsonc:
-        specifier: ^2.12.2
+        specifier: ^2.13.0
         version: 2.13.0(eslint@8.56.0)
       eslint-plugin-jsx-a11y:
         specifier: ^6.8.0
@@ -106,8 +106,8 @@ importers:
         specifier: ^50.0.1
         version: 50.0.1(eslint@8.56.0)
       eslint-plugin-vue:
-        specifier: 9.20.1
-        version: 9.20.1(eslint@8.56.0)
+        specifier: 9.21.1
+        version: 9.21.1(eslint@8.56.0)
       eslint-plugin-yml:
         specifier: ^1.12.2
         version: 1.12.2(eslint@8.56.0)
@@ -122,7 +122,7 @@ importers:
         specifier: ^7.23.9
         version: 7.23.9
       '@typescript-eslint/utils':
-        specifier: ^6.19.0
+        specifier: ^6.20.0
         version: 6.20.0(eslint@8.56.0)(typescript@5.3.3)
       eslint:
         specifier: ^8.56.0
@@ -287,6 +287,7 @@ packages:
   /@babel/highlight@7.23.4:
     resolution: {integrity: sha512-acGdbYSfp2WheJoJm/EBBBLh/ID8KDc64ISZ9DYtBmC8/Q204PZJLHyzeB5qMzJ5trcOkybd78M4x2KWsUq++A==}
     engines: {node: '>=6.9.0'}
+    requiresBuild: true
     dependencies:
       '@babel/helper-validator-identifier': 7.22.20
       chalk: 2.4.2
@@ -1371,6 +1372,7 @@ packages:
   /chalk@2.4.2:
     resolution: {integrity: sha512-Mti+f9lpJNcwF4tWV8/OrTTtF1gZi+f8FqlyAdouralcFWFQWF2+NgCHShjkCb+IFBLq9buZwE1xckQU4peSuQ==}
     engines: {node: '>=4'}
+    requiresBuild: true
     dependencies:
       ansi-styles: 3.2.1
       escape-string-regexp: 1.0.5
@@ -2376,8 +2378,8 @@ packages:
       - supports-color
     dev: false
 
-  /eslint-plugin-vue@9.20.1(eslint@8.56.0):
-    resolution: {integrity: sha512-GyCs8K3lkEvoyC1VV97GJhP1SvqsKCiWGHnbn0gVUYiUhaH2+nB+Dv1uekv1THFMPbBfYxukrzQdltw950k+LQ==}
+  /eslint-plugin-vue@9.21.1(eslint@8.56.0):
+    resolution: {integrity: sha512-XVtI7z39yOVBFJyi8Ljbn7kY9yHzznKXL02qQYn+ta63Iy4A9JFBw6o4OSB9hyD2++tVT+su9kQqetUyCCwhjw==}
     engines: {node: ^14.17.0 || >=16.0.0}
     peerDependencies:
       eslint: ^6.2.0 || ^7.0.0 || ^8.0.0
