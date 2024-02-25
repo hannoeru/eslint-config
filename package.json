@@ -23,7 +23,7 @@
     "@types/react": "^18.2.58",
     "bumpp": "^9.3.0",
     "conventional-changelog-cli": "^4.1.0",
-    "eslint": "^8.56.0",
+    "eslint": "^8.57.0",
     "jiti": "^1.21.0",
     "react": "^18.2.0",
     "typescript": "^5.3.3",
