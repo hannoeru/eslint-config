@@ -20,7 +20,7 @@
   "devDependencies": {
     "@hannoeru/eslint-config": "workspace:*",
     "@hannoeru/eslint-plugin": "workspace:*",
-    "@types/react": "^18.2.78",
+    "@types/react": "^18.2.79",
     "bumpp": "^9.4.0",
     "conventional-changelog-cli": "^4.1.0",
     "eslint": "^8.57.0",
