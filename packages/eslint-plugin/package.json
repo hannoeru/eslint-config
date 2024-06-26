@@ -55,7 +55,7 @@
     "@babel/types": "^7.24.7",
     "@typescript-eslint/utils": "^7.14.1",
     "eslint": "^8.57.0",
-    "typescript": "^5.4.5",
+    "typescript": "^5.5.2",
     "unbuild": "^2.0.0"
   }
 }
