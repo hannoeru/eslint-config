@@ -22,30 +22,30 @@
     "type-check": "tsc --noEmit"
   },
   "peerDependencies": {
-    "eslint": "^8.0.0"
+    "eslint": "^8.0.0 || ^9.0.0"
   },
   "publishConfig": {
     "access": "public"
   },
   "dependencies": {
     "@next/eslint-plugin-next": "^14.2.15",
-    "@typescript-eslint/eslint-plugin": "^7.18.0",
-    "@typescript-eslint/parser": "^7.18.0",
+    "@typescript-eslint/eslint-plugin": "^8.11.0",
+    "@typescript-eslint/parser": "^8.11.0",
     "eslint-config-standard": "^17.1.0",
     "eslint-import-resolver-typescript": "^3.6.3",
     "eslint-plugin-eslint-comments": "^3.2.0",
     "eslint-plugin-html": "^8.1.2",
     "eslint-plugin-import": "^2.31.0",
-    "eslint-plugin-jest": "^27.9.0",
+    "eslint-plugin-jest": "^28.8.3",
     "eslint-plugin-jest-formatting": "^3.1.0",
     "eslint-plugin-jsonc": "^2.16.0",
     "eslint-plugin-jsx-a11y": "^6.10.0",
-    "eslint-plugin-markdown": "^3.0.1",
-    "eslint-plugin-n": "^16.6.2",
-    "eslint-plugin-promise": "^6.6.0",
+    "eslint-plugin-markdown": "^5.1.0",
+    "eslint-plugin-n": "^17.11.1",
+    "eslint-plugin-promise": "^7.1.0",
     "eslint-plugin-react": "^7.37.1",
-    "eslint-plugin-react-hooks": "^4.6.2",
-    "eslint-plugin-unicorn": "^51.0.1",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "eslint-plugin-unicorn": "^56.0.0",
     "eslint-plugin-vue": "9.29.0",
     "eslint-plugin-yml": "^1.14.0",
     "jsonc-eslint-parser": "^2.4.0",
@@ -53,8 +53,8 @@
   },
   "devDependencies": {
     "@babel/types": "^7.25.8",
-    "@typescript-eslint/utils": "^7.18.0",
-    "eslint": "^8.57.1",
+    "@typescript-eslint/utils": "^8.11.0",
+    "eslint": "^9.13.0",
     "typescript": "^5.6.3",
     "unbuild": "^2.0.0"
   }
